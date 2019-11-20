@@ -20,7 +20,7 @@ const Experience = () => {
     <div>
       <h2>Expérience</h2>
       <Row>
-        <Col>
+        <Col xs="12" sm="6" md="4" xl="3">
           <Card className="cards">
             <CardImg top width="100%" src={WCSlogo} alt="Card image cap" />
             <CardBody className="text-left">
@@ -46,9 +46,9 @@ const Experience = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col>
+        <Col xs="12" sm="6" md="4" xl="3">
           <Card className="cards">
-          <CardImg top width="100%" src={IDIX} alt="Card image cap" />
+            <CardImg top width="100%" src={IDIX} alt="Card image cap" />
             <CardBody className="text-left">
               <CardTitle>
                 {/* <img src={IDIX} alt="Idix Logo" height="100px" /> */}
@@ -73,8 +73,8 @@ const Experience = () => {
             </CardBody>
           </Card>
         </Col>
-      
-        <Col>
+
+        <Col xs="12" sm="6" md="4" xl="3">
           <Card className="cards">
             <CardImg top width="100%" src={Mind} alt="Card image cap" />
             <CardBody className="text-left">
@@ -100,9 +100,9 @@ const Experience = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col>
+        <Col xs="12" sm="6" md="4" xl="3">
           <Card className="cards">
-          <CardImg top width="100%" src={LaCroix} alt="Card image cap" />
+            <CardImg top width="100%" src={LaCroix} alt="Card image cap" />
             <CardBody className="text-left">
               <CardTitle>
                 {/* <img src={LaCroix} alt="La Croix Logo" height="100px" /> */}
