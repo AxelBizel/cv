@@ -21,7 +21,7 @@ const Experience = () => {
         <h2>Expérience</h2>
       <Row>
         <Col sm="6">
-          <Card>
+          <Card body outline color="primary">
             {/* <CardImg top width="100%" src={WCSlogo} alt="Card image cap" /> */}
             <CardBody className="text-left">
               <CardTitle>
@@ -49,7 +49,7 @@ const Experience = () => {
           </Card>
         </Col>
         <Col sm="6">
-          <Card>
+          <Card body outline color="primary">
             <CardBody className="text-left">
               <CardTitle>
                 <img src={IDIX} alt="Idix Logo" height="100px" />
@@ -82,7 +82,7 @@ const Experience = () => {
 
       <Row>
         <Col sm="6">
-          <Card>
+          <Card body outline color="primary">
             {/* <CardImg top width="100%" src={WCSlogo} alt="Card image cap" /> */}
             <CardBody className="text-left">
               <CardTitle>
@@ -110,7 +110,7 @@ const Experience = () => {
           </Card>
         </Col>
         <Col sm="6">
-          <Card>
+          <Card body outline color="primary">
             <CardBody className="text-left">
               <CardTitle>
                 <img src={LaCroix} alt="La Croix Logo" height="100px" />

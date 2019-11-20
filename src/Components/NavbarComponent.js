@@ -8,7 +8,6 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import Avatar from "../Images/Avatar-AxelBizel.png"
 import "../App.css";
 
 const NavbarComponent = () => {
@@ -18,8 +17,8 @@ const NavbarComponent = () => {
 
   return (
     <div>
-      <Navbar color="dark" light expand="md">
-        <NavbarBrand href="/"><img src={Avatar} height="50px" /> </NavbarBrand>
+      <Navbar light expand="md">
+        <NavbarBrand href="/">Home </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -36,7 +35,7 @@ const NavbarComponent = () => {
               <NavLink href="/components/">Contact</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
+              <NavLink href="https://github.com/AxelBizel" target="_blank">
                 GitHub
               </NavLink>
             </NavItem>
