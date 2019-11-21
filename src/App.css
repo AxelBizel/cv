@@ -232,7 +232,8 @@ h4 {
 }
 
 .logo-formation{
-  margin : 0 2vw;
+  margin : 0 2vw 0 0;
+  height:100px;
 }
 
 .formation-item{
