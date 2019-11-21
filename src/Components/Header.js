@@ -1,7 +1,5 @@
 import React from "react";
 import Avatar from "../Images/Avatar-AxelBizel.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   return (
@@ -10,7 +8,6 @@ const Header = () => {
       <div>
         <h1>Axel Bizel</h1>
         <h2>Développeur front-end junior</h2>
-        <FontAwesomeIcon icon={faCoffee} />
       </div>
     </div>
   );

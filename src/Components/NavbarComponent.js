@@ -6,9 +6,11 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
+  NavLink
 } from "reactstrap";
 import "../App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 const NavbarComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +19,11 @@ const NavbarComponent = () => {
 
   return (
     <div>
-      <Navbar light expand="md">
-        <NavbarBrand href="/">Home </NavbarBrand>
+      <Navbar color="light" light expand="sm">
+        <NavbarBrand href="/">
+          {" "}
+          <FontAwesomeIcon icon={faHome} />
+        </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
