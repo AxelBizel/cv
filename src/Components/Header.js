@@ -7,9 +7,11 @@ const Header = () => {
       <img src={Avatar} alt="Axel Bizel's Avatar" />
       <div>
         <h1>Axel Bizel</h1>
-        <h2>Développeur front-end junior</h2>
+        <p>Développeur front-end junior <br/> Datajournaliste</p>
       </div>
     </div>
   );
 };
+
+
 export default Header;

@@ -6,8 +6,6 @@ import {
   Card,
   CardImg,
   CardTitle,
-  CardText,
-  CardDeck,
   CardBody
 } from "reactstrap";
 import BootstrapLogo from "../Images/Bootstrap.png";
@@ -27,13 +25,10 @@ import "../App.css";
 const Stack = () => {
   return (
     <Container>
-    
       <h2 className="section-titles">Stack</h2>
-     
+
       <Row>
-
-
-         <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
           <Card
             body
             inverse
@@ -49,8 +44,8 @@ const Stack = () => {
             </CardBody>
           </Card>
         </Col>
-    
-         <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
           <Card
             body
             inverse
@@ -71,8 +66,8 @@ const Stack = () => {
             </CardBody>
           </Card>
         </Col>
-    
-         <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
           <Card
             body
             inverse
@@ -88,8 +83,8 @@ const Stack = () => {
             </CardBody>
           </Card>
         </Col>
-    
-         <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
           <Card
             body
             inverse
@@ -105,8 +100,8 @@ const Stack = () => {
             </CardBody>
           </Card>
         </Col>
-    
-         <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
           <Card
             body
             inverse
@@ -122,8 +117,8 @@ const Stack = () => {
             </CardBody>
           </Card>
         </Col>
-    
-         <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
           <Card
             body
             inverse
@@ -139,124 +134,119 @@ const Stack = () => {
             </CardBody>
           </Card>
         </Col>
-    
-    
-          <Col xs="6" sm="4" md="3" xl="2" className="my-2">
-            <Card
-              body
-              inverse
-              style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
-            >
-              <CardImg top width="100%" src={MySQLLogo} alt="MySQL Logo" />
-              <CardBody  className="m-0, p-0">
-                <CardTitle
-                  style={{ margin: "0", padding: "1vh", textAlign: "center" }}
-                >MySQL
-                </CardTitle>
-              </CardBody>
-            </Card>
-            </Col>
 
-            <Col xs="6" sm="4" md="3" xl="2" className="my-2">
-              <Card
-                body
-                inverse
-                style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+          <Card
+            body
+            inverse
+            style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
+          >
+            <CardImg top width="100%" src={MySQLLogo} alt="MySQL Logo" />
+            <CardBody className="m-0, p-0">
+              <CardTitle
+                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
               >
-                <CardImg top width="100%" src={GitLogo} alt="Git Logo" />
-                <CardBody className="p-0">
-                  <CardTitle
-                    style={{ margin: "0", padding: "1vh", textAlign: "center" }}
-                  >
-                    Git
-                  </CardTitle>
-                </CardBody>
-              </Card>
-            </Col>
-            
-            <Col xs="6" sm="4" md="3" xl="2" className="my-2">
-              <Card
-                body
-                inverse
-                style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
-              >
-                <CardImg top width="100%" src={ScrumLogo} alt="Scrum Logo" />
-                <CardBody className="p-0">
-                  <CardTitle
-                    style={{ margin: "0", padding: "1vh", textAlign: "center" }}
-                  >
-                    Scrum/Agile
-                  </CardTitle>
-                </CardBody>
-              </Card>
-            </Col>
-            
-            <Col xs="6" sm="4" md="3" xl="2" className="my-2">
-              <Card
-                body
-                inverse
-                style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
-              >
-                <CardImg
-                  top
-                  width="100%"
-                  src={AILogo}
-                  alt="Adobe Illustrator Logo"
-                />
-                <CardBody className="p-0">
-                  <CardTitle
-                    style={{ margin: "0", padding: "1vh", textAlign: "center" }}
-                  >Illustrator
-                  </CardTitle>
-                </CardBody>
-              </Card>
-            </Col>
-            
-            <Col xs="6" sm="4" md="3" xl="2" className="my-2">
-              <Card
-                body
-                inverse
-                style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
-              >
-                <CardImg
-                  top
-                  width="100%"
-                  src={PSLogo}
-                  alt="Adobe Photoshop Logo"
-                />
-                <CardBody className="p-0">
-                  <CardTitle
-                    style={{ margin: "0", padding: "1vh", textAlign: "center" }}
-                  >Photoshop
-                  </CardTitle>
-                </CardBody>
-              </Card>
-            </Col>
-            
-            <Col xs="6" sm="4" md="3" xl="2" className="my-2">
-              <Card
-                body
-                inverse
-                style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
-              >
-                <CardImg
-                  top
-                  width="100%"
-                  src={GoogleDriveLogo}
-                  alt="Google Drive Logo"
-                />
-                <CardBody className="p-0">
-                  <CardTitle
-                    style={{ margin: "0", padding: "1vh", textAlign: "center" }}
-                  >
-                    Google Tools
-                  </CardTitle>
-                </CardBody>
-              </Card>
-            </Col>
-        
-        </Row>
+                MySQL
+              </CardTitle>
+            </CardBody>
+          </Card>
+        </Col>
 
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+          <Card
+            body
+            inverse
+            style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
+          >
+            <CardImg top width="100%" src={GitLogo} alt="Git Logo" />
+            <CardBody className="p-0">
+              <CardTitle
+                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+              >
+                Git
+              </CardTitle>
+            </CardBody>
+          </Card>
+        </Col>
+
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+          <Card
+            body
+            inverse
+            style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
+          >
+            <CardImg top width="100%" src={ScrumLogo} alt="Scrum Logo" />
+            <CardBody className="p-0">
+              <CardTitle
+                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+              >
+                Scrum/Agile
+              </CardTitle>
+            </CardBody>
+          </Card>
+        </Col>
+
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+          <Card
+            body
+            inverse
+            style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
+          >
+            <CardImg
+              top
+              width="100%"
+              src={AILogo}
+              alt="Adobe Illustrator Logo"
+            />
+            <CardBody className="p-0">
+              <CardTitle
+                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+              >
+                Illustrator
+              </CardTitle>
+            </CardBody>
+          </Card>
+        </Col>
+
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+          <Card
+            body
+            inverse
+            style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
+          >
+            <CardImg top width="100%" src={PSLogo} alt="Adobe Photoshop Logo" />
+            <CardBody className="p-0">
+              <CardTitle
+                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+              >
+                Photoshop
+              </CardTitle>
+            </CardBody>
+          </Card>
+        </Col>
+
+        <Col xs="6" sm="4" md="3" xl="2" className="my-2">
+          <Card
+            body
+            inverse
+            style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
+          >
+            <CardImg
+              top
+              width="100%"
+              src={GoogleDriveLogo}
+              alt="Google Drive Logo"
+            />
+            <CardBody className="p-0">
+              <CardTitle
+                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+              >
+                Google Tools
+              </CardTitle>
+            </CardBody>
+          </Card>
+        </Col>
+      </Row>
     </Container>
   );
 };

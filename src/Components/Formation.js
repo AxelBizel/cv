@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Media, CardImg } from "reactstrap";
+import { Row, Col, Container, Media } from "reactstrap";
 import WCSlogo from "../Images/WCS.jpg";
 import EJDG from "../Images/ejdg-logo.jpg";
 import UGA from "../Images/UGA.jpg";

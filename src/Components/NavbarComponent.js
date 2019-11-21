@@ -19,7 +19,7 @@ const NavbarComponent = () => {
 
   return (
     <div>
-      <Navbar color="light" light expand="sm">
+      <Navbar className="navbar-bg" light expand="sm">
         <NavbarBrand href="/">
           {" "}
           <FontAwesomeIcon icon={faHome} />
