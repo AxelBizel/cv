@@ -24,7 +24,7 @@ const Experience = () => {
             }}
           >
             <div className="experience-header">
-              <img src={WCSlogo} alt="WCS logo" height="100px" />
+              <img src={WCSlogo} alt="WCS logo" height="100px" className="experience-logo" />
               <div className="experience-title">
                 <h3>Développeur front-end</h3>
                 <h4>
@@ -59,7 +59,7 @@ const Experience = () => {
             }}
           >
             <div className="experience-header">
-              <img src={IDIX} alt="IDIX logo" height="100px" />
+              <img src={IDIX} alt="IDIX logo" height="100px" className="experience-logo"/>
               <div className="experience-title">
                 <h3>Datajournaliste / Infographiste</h3>
                 <h4>
@@ -94,7 +94,7 @@ const Experience = () => {
             }}
           >
             <div className="experience-header">
-              <img src={Mind} alt="Mind Logo" height="100px" />
+              <img src={Mind} alt="Mind Logo" height="100px" className="experience-logo"/>
               <div className="experience-title">
                 <h3>Journaliste économie numérique</h3>
                 <h4>
@@ -129,7 +129,7 @@ const Experience = () => {
             }}
           >
             <div className="experience-header">
-              <img src={LaCroix} alt="La Croix Logo" height="100px" />
+              <img src={LaCroix} alt="La Croix Logo" height="100px" className="experience-logo" />
               <div className="experience-title">
                 <h3>Journaliste Web</h3>{" "}
                 <h4>

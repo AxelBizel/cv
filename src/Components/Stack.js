@@ -37,7 +37,7 @@ const Stack = () => {
             <CardImg top width="100%" src={ReactLogo} alt="React Logo" />
             <CardBody className="p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+                style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 React
               </CardTitle>
@@ -59,7 +59,7 @@ const Stack = () => {
             />
             <CardBody className="p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh 0", textAlign: "center" }}
+                style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 Bootstrap
               </CardTitle>
@@ -76,7 +76,7 @@ const Stack = () => {
             <CardImg top width="100%" src={NodeLogo} alt="Node.js Logo" />
             <CardBody className="p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+                 style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 Node.js
               </CardTitle>
@@ -93,7 +93,7 @@ const Stack = () => {
             <CardImg top width="100%" src={HTML5Logo} alt="HTML5 Logo" />
             <CardBody className="p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+                 style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 HTML5
               </CardTitle>
@@ -110,7 +110,7 @@ const Stack = () => {
             <CardImg top width="100%" src={CSS3Logo} alt="CSS3 Logo" />
             <CardBody className="p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+                 style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 CSS3
               </CardTitle>
@@ -127,7 +127,7 @@ const Stack = () => {
             <CardImg top width="100%" src={JSLogo} alt="Javascript Logo" />
             <CardBody className="p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+                 style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 Javascript
               </CardTitle>
@@ -144,7 +144,7 @@ const Stack = () => {
             <CardImg top width="100%" src={MySQLLogo} alt="MySQL Logo" />
             <CardBody className="m-0, p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+                 style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 MySQL
               </CardTitle>
@@ -161,7 +161,7 @@ const Stack = () => {
             <CardImg top width="100%" src={GitLogo} alt="Git Logo" />
             <CardBody className="p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+                 style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 Git
               </CardTitle>
@@ -178,7 +178,7 @@ const Stack = () => {
             <CardImg top width="100%" src={ScrumLogo} alt="Scrum Logo" />
             <CardBody className="p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+                 style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 Scrum/Agile
               </CardTitle>
@@ -200,7 +200,7 @@ const Stack = () => {
             />
             <CardBody className="p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+                 style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 Illustrator
               </CardTitle>
@@ -217,7 +217,7 @@ const Stack = () => {
             <CardImg top width="100%" src={PSLogo} alt="Adobe Photoshop Logo" />
             <CardBody className="p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+                 style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 Photoshop
               </CardTitle>
@@ -239,7 +239,7 @@ const Stack = () => {
             />
             <CardBody className="p-0">
               <CardTitle
-                style={{ margin: "0", padding: "1vh", textAlign: "center" }}
+                 style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
                 Google Tools
               </CardTitle>
