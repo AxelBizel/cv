@@ -18,7 +18,7 @@ const NavbarComponent = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="sticky-top">
       <Navbar className="navbar-bg" light expand="sm">
         <NavbarBrand href="/">
           {" "}
