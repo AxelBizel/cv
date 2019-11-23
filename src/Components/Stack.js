@@ -241,7 +241,7 @@ const Stack = () => {
               <CardTitle
                  style={{ margin: "0", paddingTop: "3vh", textAlign: "center", fontFamily: "Roboto Mono"}}
               >
-                Google Tools
+                Google&nbsp;Tools
               </CardTitle>
             </CardBody>
           </Card>
