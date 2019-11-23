@@ -7,7 +7,7 @@ const Header = () => {
       <img src={Avatar} alt="Axel Bizel's Avatar" />
       <div>
         <h1>Axel Bizel</h1>
-        <p>Développeur front-end junior <br/> Datajournaliste</p>
+        <p>Développeur front-end<br/>junior / Datajournaliste</p>
       </div>
     </div>
   );

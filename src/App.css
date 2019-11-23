@@ -1,5 +1,4 @@
 .App {
-  background-attachment: fixed;
   background: linear-gradient(
       323deg,
       rgba(255, 255, 255, 0.01) 0%,
@@ -131,16 +130,64 @@
   color: lightgrey;
 }
 
+.section-titles {
+  font-size: 3em;
+  text-align: center;
+  margin: 10vh 10vw;
+}
 
-.header img {
-  height: 25vmin;
+p,
+ul,
+li {
+  font-family: "Roboto Mono", monospace;
 }
-.navbar-bg {
-  background: linear-gradient(135deg, rgba(159, 159, 159, 0.46) 0%, rgba(159, 159, 159, 0.46) 14.286%,rgba(165, 165, 165, 0.46) 14.286%, rgba(165, 165, 165, 0.46) 28.572%,rgba(171, 171, 171, 0.46) 28.572%, rgba(171, 171, 171, 0.46) 42.858%,rgba(178, 178, 178, 0.46) 42.858%, rgba(178, 178, 178, 0.46) 57.144%,rgba(184, 184, 184, 0.46) 57.144%, rgba(184, 184, 184, 0.46) 71.43%,rgba(190, 190, 190, 0.46) 71.43%, rgba(190, 190, 190, 0.46) 85.716%,rgba(196, 196, 196, 0.46) 85.716%, rgba(196, 196, 196, 0.46) 100.002%),linear-gradient(45deg, rgb(252, 252, 252) 0%, rgb(252, 252, 252) 14.286%,rgb(246, 246, 246) 14.286%, rgb(246, 246, 246) 28.572%,rgb(241, 241, 241) 28.572%, rgb(241, 241, 241) 42.858%,rgb(235, 235, 235) 42.858%, rgb(235, 235, 235) 57.144%,rgb(229, 229, 229) 57.144%, rgb(229, 229, 229) 71.43%,rgb(224, 224, 224) 71.43%, rgb(224, 224, 224) 85.716%,rgb(218, 218, 218) 85.716%, rgb(218, 218, 218) 100.002%);
-  height: 8vh;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
 }
+
+/* HEADER SECTION */
+
 .header {
-  background: linear-gradient(135deg, rgba(159, 159, 159, 0.46) 0%, rgba(159, 159, 159, 0.46) 14.286%,rgba(165, 165, 165, 0.46) 14.286%, rgba(165, 165, 165, 0.46) 28.572%,rgba(171, 171, 171, 0.46) 28.572%, rgba(171, 171, 171, 0.46) 42.858%,rgba(178, 178, 178, 0.46) 42.858%, rgba(178, 178, 178, 0.46) 57.144%,rgba(184, 184, 184, 0.46) 57.144%, rgba(184, 184, 184, 0.46) 71.43%,rgba(190, 190, 190, 0.46) 71.43%, rgba(190, 190, 190, 0.46) 85.716%,rgba(196, 196, 196, 0.46) 85.716%, rgba(196, 196, 196, 0.46) 100.002%),linear-gradient(45deg, rgb(252, 252, 252) 0%, rgb(252, 252, 252) 14.286%,rgb(246, 246, 246) 14.286%, rgb(246, 246, 246) 28.572%,rgb(241, 241, 241) 28.572%, rgb(241, 241, 241) 42.858%,rgb(235, 235, 235) 42.858%, rgb(235, 235, 235) 57.144%,rgb(229, 229, 229) 57.144%, rgb(229, 229, 229) 71.43%,rgb(224, 224, 224) 71.43%, rgb(224, 224, 224) 85.716%,rgb(218, 218, 218) 85.716%, rgb(218, 218, 218) 100.002%);
+  background: linear-gradient(
+      135deg,
+      rgba(159, 159, 159, 0.46) 0%,
+      rgba(159, 159, 159, 0.46) 14.286%,
+      rgba(165, 165, 165, 0.46) 14.286%,
+      rgba(165, 165, 165, 0.46) 28.572%,
+      rgba(171, 171, 171, 0.46) 28.572%,
+      rgba(171, 171, 171, 0.46) 42.858%,
+      rgba(178, 178, 178, 0.46) 42.858%,
+      rgba(178, 178, 178, 0.46) 57.144%,
+      rgba(184, 184, 184, 0.46) 57.144%,
+      rgba(184, 184, 184, 0.46) 71.43%,
+      rgba(190, 190, 190, 0.46) 71.43%,
+      rgba(190, 190, 190, 0.46) 85.716%,
+      rgba(196, 196, 196, 0.46) 85.716%,
+      rgba(196, 196, 196, 0.46) 100.002%
+    ),
+    linear-gradient(
+      45deg,
+      rgb(252, 252, 252) 0%,
+      rgb(252, 252, 252) 14.286%,
+      rgb(246, 246, 246) 14.286%,
+      rgb(246, 246, 246) 28.572%,
+      rgb(241, 241, 241) 28.572%,
+      rgb(241, 241, 241) 42.858%,
+      rgb(235, 235, 235) 42.858%,
+      rgb(235, 235, 235) 57.144%,
+      rgb(229, 229, 229) 57.144%,
+      rgb(229, 229, 229) 71.43%,
+      rgb(224, 224, 224) 71.43%,
+      rgb(224, 224, 224) 85.716%,
+      rgb(218, 218, 218) 85.716%,
+      rgb(218, 218, 218) 100.002%
+    );
   min-height: 92vh;
   display: flex;
   flex-direction: row;
@@ -150,56 +197,51 @@
   text-align: left;
 }
 
-.App-link {
-  color: #09d3ac;
+.header img {
+  height: 25vmin;
 }
 
-.section-titles {
-  font-size: 3em;
-  text-align: center;
-  margin: 10vh 10vw;
+/* NAVBAR SECTION */
+
+.navbar-bg {
+  background: linear-gradient(
+      135deg,
+      rgba(159, 159, 159, 0.46) 0%,
+      rgba(159, 159, 159, 0.46) 14.286%,
+      rgba(165, 165, 165, 0.46) 14.286%,
+      rgba(165, 165, 165, 0.46) 28.572%,
+      rgba(171, 171, 171, 0.46) 28.572%,
+      rgba(171, 171, 171, 0.46) 42.858%,
+      rgba(178, 178, 178, 0.46) 42.858%,
+      rgba(178, 178, 178, 0.46) 57.144%,
+      rgba(184, 184, 184, 0.46) 57.144%,
+      rgba(184, 184, 184, 0.46) 71.43%,
+      rgba(190, 190, 190, 0.46) 71.43%,
+      rgba(190, 190, 190, 0.46) 85.716%,
+      rgba(196, 196, 196, 0.46) 85.716%,
+      rgba(196, 196, 196, 0.46) 100.002%
+    ),
+    linear-gradient(
+      45deg,
+      rgb(252, 252, 252) 0%,
+      rgb(252, 252, 252) 14.286%,
+      rgb(246, 246, 246) 14.286%,
+      rgb(246, 246, 246) 28.572%,
+      rgb(241, 241, 241) 28.572%,
+      rgb(241, 241, 241) 42.858%,
+      rgb(235, 235, 235) 42.858%,
+      rgb(235, 235, 235) 57.144%,
+      rgb(229, 229, 229) 57.144%,
+      rgb(229, 229, 229) 71.43%,
+      rgb(224, 224, 224) 71.43%,
+      rgb(224, 224, 224) 85.716%,
+      rgb(218, 218, 218) 85.716%,
+      rgb(218, 218, 218) 100.002%
+    );
+  min-height: 8vh;
 }
 
-.form-container {
-  max-width: 600px;
-  align-content: center;
-}
-
-.logo-formation {
-  margin: 0 2vw 0 0;
-  height: 100px;
-  border-radius: 50%;
-}
-
-.formation-item {
-  padding: 2vw 2vh;
-  margin: 2vw 2vh;
-  border-radius: 3px;
-  background-color: #ffffff1d;
-}
-
-p, ul, li {
-  font-family: "Roboto Mono", monospace;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Roboto Slab", serif;
-}
-
-.experience-subtitle {
-  display: flex;
-  flex-direction: row;
-  padding: 2vh 0;
-  flex-wrap: wrap;
-}
-
-.experience-text-subtitle {
-  font-size: 1.2em;
-  padding: 0 2vw;
-}
+/* EXPERIENCE SECTION */
 
 .experience-header {
   display: flex;
@@ -214,6 +256,41 @@ h4 {
   padding-top: 2vh;
 }
 
-.experience-logo{
+.experience-logo {
   border-radius: 50%;
+}
+
+
+
+/* FORMATION SECTION */
+
+.formation-item {
+  padding: 2vw 2vh;
+  margin: 2vw 2vh;
+  border-radius: 3px;
+  background-color: #ffffff1d;
+}
+
+.formation-logo {
+  border-radius: 50%;
+}
+
+.formation-header {
+  display: flex;
+  align-items: center;
+}
+.formation-title {
+  display: inline-block;
+  padding-left: 2vw;
+}
+
+.formation-details {
+  padding-top: 2vh;
+}
+
+/* CONTACT SECTION */
+
+.form-container {
+  max-width: 600px;
+  align-content: center;
 }

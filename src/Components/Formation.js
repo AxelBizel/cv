@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Media } from "reactstrap";
+import { Row, Col, Container } from "reactstrap";
 import WCSlogo from "../Images/WCS.jpg";
 import EJDG from "../Images/ejdg-logo.jpg";
 import UGA from "../Images/UGA.jpg";
@@ -11,62 +11,94 @@ const Formation = () => {
       <h2 className="section-titles">Formation</h2>
       <Row>
         <Col sm="12" lg="6">
-          <Media className="formation-item">
-            <Media left href="#">
-              <Media src={WCSlogo} alt="WCS logo" height="64px" className="logo-formation" />
-            </Media>
-            <Media body>
-              <Media heading>
-                <h3>Wild Code School - 2019-2020</h3>
-              </Media>
-              <p>Titre “Développeur web et web mobile” (RNCP, niveau III)</p>
-            </Media>
-          </Media>
+          <div className="formation-item">
+            <div className="formation-header">
+              <img
+                src={WCSlogo}
+                alt="WCS logo"
+                height="100px"
+                className="formation-logo"
+              />
+              <div className="formation-title">
+                <h3>Wild Code School </h3>
+                <h5>
+                  <em>(2019-2020)</em>
+                </h5>
+                <p>Titre “Développeur web et web mobile” (RNCP, niveau III)</p>
+              </div>
+            </div>
+          </div>
         </Col>
 
         <Col sm="12" lg="6">
-          <Media className="formation-item">
-            <Media left href="#">
-              <Media src={EJDG} alt="WCS logo" height="64px" className="logo-formation" />
-            </Media>
-            <Media body>
-              <Media heading>
-                <h3>École de Journalisme de Grenoble (2011-2013)</h3>
-              </Media>
-              <p>Master Pro, reconnu par la CPNEJ, spécialité web, mention B</p>
-            </Media>
-          </Media>
+          <div className="formation-item">
+            <div className="formation-header">
+              <img
+                src={EJDG}
+                alt="WCS logo"
+                height="100px"
+                className="formation-logo"
+              />
+              <div className="formation-title">
+                <h3>
+                  École de Journalisme
+                  <br />
+                  de Grenoble
+                </h3>
+                <h5>
+                  <em>(2011-2013)</em>
+                </h5>
+                <p>
+                  Master Pro, reconnu par la CPNEJ, spécialité web, mention B
+                </p>
+              </div>
+            </div>
+          </div>
         </Col>
       </Row>
 
       <Row>
         <Col sm="12" lg="6">
-          <Media className="formation-item">
-            <Media left href="#">
-              <Media src={UGA} alt="WCS logo" height="64px" className="logo-formation"/>
-            </Media>
-            <Media body>
-              <Media heading>
-                <h3>Master Histoire contemporaine (2005-2010)</h3>
-              </Media>
-              <p>Master de recherche en histoire contemporaine, mention TB.
-                Université Savoie-Mont-Blanc / Université Grenoble-Alpes.</p>
-            </Media>
-          </Media>
+          <div className="formation-item">
+            <div className="formation-header">
+              <img
+                src={UGA}
+                alt="UGA logo"
+                height="100px"
+                className="formation-logo"
+              />
+              <div className="formation-title">
+                <h3>Master Histoire contemporaine</h3>
+                <h5>
+                  <em>(2005-2010)</em>
+                </h5>
+                <p>
+                  Master de recherche en histoire contemporaine, mention TB.
+                  Université Savoie-Mont-Blanc / Université Grenoble-Alpes.
+                </p>
+              </div>
+            </div>
+          </div>
         </Col>
 
         <Col sm="12" lg="6">
-          <Media className="formation-item">
-            <Media left href="#">
-              <Media src={Bac} alt="WCS logo" height="64px" className="logo-formation" />
-            </Media>
-            <Media body>
-              <Media heading>
-                <h3>Bac ES spécialité Maths (2004)</h3>
-              </Media>
-              <p>Mention B (2 ans d’avance)</p>
-            </Media>
-          </Media>
+          <div className="formation-item">
+            <div className="formation-header">
+              <img
+                src={Bac}
+                alt="Bac logo"
+                height="100px"
+                className="formation-logo"
+              />
+              <div className="formation-title">
+                <h3>Bac ES spécialité Maths</h3>
+                <h5>
+                  <em>(2004)</em>
+                </h5>
+                <p>Mention B, 2 ans d’avance.</p>
+              </div>
+            </div>
+          </div>
         </Col>
       </Row>
     </Container>
