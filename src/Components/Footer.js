@@ -12,32 +12,50 @@ const Footer = () => {
     <div className="footer">
       <Container>
         <Row>
-          <Col>
-            <div className="footer-logo-container">
-              <div>
-                <FontAwesomeIcon className="footer-logo" icon={faGithub} />
-                <p>Github</p>
-              </div>
-              <div>
-                <FontAwesomeIcon className="footer-logo" icon={faLinkedin} />
-                <p>LinkedIn</p>
-              </div>
-              <div>
-              <a href="https://twitter.com/AxelBizel" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon className="footer-logo" icon={faTwitter} />
-                <p>Twitter</p>
-                </a>
-              </div>
-              <div>
-                <a href='../Images/CV-AxelBizel.pdf' download="CV-AxelBizel.pdf">
-                <FontAwesomeIcon className="footer-logo" icon={faFileDownload}/>
-                <p>CV</p>
-                </a>
-              </div>
-            </div>
+        <Col xs="6" lg="3" className="footer-logo-container">
+            <a
+              href="https://github.com/AxelBizel"
+              target="_blank"
+              rel="noopener noreferrer"
+              alt="Mon profil Github"
+            >
+              <FontAwesomeIcon className="footer-logo" icon={faGithub} />
+              <p>Github</p>
+            </a>
+          </Col>
+          <Col xs="6" lg="3" className="footer-logo-container">
+            <a
+              href="https://www.linkedin.com/in/axel-bizel/"
+              target="_blank"
+              rel="noopener noreferrer"
+              alt="Mon profil LinkedIn"
+            >
+              <FontAwesomeIcon className="footer-logo" icon={faLinkedin} />
+              <p>LinkedIn</p>
+            </a>
+          </Col>
+          <Col xs="6" lg="3" className="footer-logo-container">
+            <a
+              href="https://twitter.com/AxelBizel"
+              target="_blank"
+              rel="noopener noreferrer"
+              alt="Mon profil Twitter"
+            >
+              <FontAwesomeIcon className="footer-logo" icon={faTwitter} />
+              <p>Twitter</p>
+            </a>
+          </Col>
+          <Col xs="6" lg="3" className="footer-logo-container">
+            <a
+              href="../Images/CV-AxelBizel.pdf"
+              download="CV-AxelBizel.pdf"
+              alt="Télécharger mon CV au format pdf"
+            >
+              <FontAwesomeIcon className="footer-logo" icon={faFileDownload} />
+              <p>CV</p>
+            </a>
           </Col>
         </Row>
-        <Row></Row>
         <Row>
           <p className="copyright-mention">
             &#9400; Axel Bizel - novembre 2019 - Ce site a été entièrement
