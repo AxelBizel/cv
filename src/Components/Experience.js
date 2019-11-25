@@ -1,10 +1,11 @@
 import React from "react";
+import "../App.css";
 import { Row, Col, Container } from "reactstrap";
 import WCSlogo from "../Images/WCS.jpg";
 import IDIX from "../Images/idix.png";
 import LaCroix from "../Images/lacroix.png";
 import Mind from "../Images/mind-logo.jpg";
-import "../App.css";
+import CarouselIDIX from "./CarouselIDIX";
 
 const Experience = () => {
   return (
@@ -24,7 +25,12 @@ const Experience = () => {
             }}
           >
             <div className="experience-header">
-              <img src={WCSlogo} alt="WCS logo" height="100px" className="experience-logo" />
+              <img
+                src={WCSlogo}
+                alt="WCS logo"
+                height="100px"
+                className="experience-logo"
+              />
               <div className="experience-title">
                 <h3>Développeur front-end</h3>
                 <h4>
@@ -37,11 +43,17 @@ const Experience = () => {
             </div>
             <div className="experience-details">
               <ul>
-                <li>Projet 1 : site statique - tinyurl.com/lareligieuse</li>
                 <li>
-                  Projet 2 : jeu en React.js - tinyurl.com/strangler-things
+                  Projet 1 : Site vitrine - HTML/CSS - tinyurl.com/larelWCS{" "}
                 </li>
-                <li>Projet 3 : en cours</li>
+                <li>
+                  Projet 2 : Jeu de Memory - Vanilla JS - tinyurl.com/memorySP
+                </li>
+                <li>Jeu mobile / PWA - React - tinyurl.com/strangler-things</li>
+                <li>
+                  Projet 4 : Site vitrine - React / Node.js - Piqueur de rue -
+                  en cours
+                </li>
                 <li>Participation à deux Hackathons</li>
               </ul>
             </div>
@@ -59,7 +71,12 @@ const Experience = () => {
             }}
           >
             <div className="experience-header">
-              <img src={IDIX} alt="IDIX logo" height="100px" className="experience-logo"/>
+              <img
+                src={IDIX}
+                alt="IDIX logo"
+                height="100px"
+                className="experience-logo"
+              />
               <div className="experience-title">
                 <h3>Datajournaliste / Infographiste</h3>
                 <h4>
@@ -78,6 +95,7 @@ const Experience = () => {
                 <li>Traitement, analyse et nettoyage de bases de données</li>
                 <li>Pilotage de projets web (dispositifs électoraux, etc…)</li>
               </ul>
+              <CarouselIDIX />
             </div>
           </div>
         </Col>
@@ -94,7 +112,12 @@ const Experience = () => {
             }}
           >
             <div className="experience-header">
-              <img src={Mind} alt="Mind Logo" height="100px" className="experience-logo"/>
+              <img
+                src={Mind}
+                alt="Mind Logo"
+                height="100px"
+                className="experience-logo"
+              />
               <div className="experience-title">
                 <h3>Journaliste économie numérique</h3>
                 <h4>
@@ -129,7 +152,12 @@ const Experience = () => {
             }}
           >
             <div className="experience-header">
-              <img src={LaCroix} alt="La Croix Logo" height="100px" className="experience-logo" />
+              <img
+                src={LaCroix}
+                alt="La Croix Logo"
+                height="100px"
+                className="experience-logo"
+              />
               <div className="experience-title">
                 <h3>Journaliste Web</h3>{" "}
                 <h4>

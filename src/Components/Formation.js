@@ -24,7 +24,7 @@ const Formation = () => {
                 <h5>
                   <em>(2019-2020)</em>
                 </h5>
-                <p>Titre “Développeur web et web mobile” (RNCP, niveau III)</p>
+                <p>Titre “Développeur web et web mobile” (RNCP, niveau III)<br/> Parcours React - Node.js</p>
               </div>
             </div>
           </div>
@@ -68,13 +68,12 @@ const Formation = () => {
                 className="formation-logo"
               />
               <div className="formation-title">
-                <h3>Master Histoire contemporaine</h3>
+                <h3>Master Histoire</h3>
                 <h5>
                   <em>(2005-2010)</em>
                 </h5>
                 <p>
-                  Master de recherche en histoire contemporaine, mention TB.
-                  Université Savoie-Mont-Blanc / Université Grenoble-Alpes.
+                  Master de recherche en histoire contemporaine, mention TB
                 </p>
               </div>
             </div>
@@ -91,11 +90,11 @@ const Formation = () => {
                 className="formation-logo"
               />
               <div className="formation-title">
-                <h3>Bac ES spécialité Maths</h3>
+                <h3>Bac ES</h3>
                 <h5>
                   <em>(2004)</em>
                 </h5>
-                <p>Mention B, 2 ans d’avance.</p>
+                <p>Spécialité Maths. <br/>Mention B, 2 ans d’avance.</p>
               </div>
             </div>
           </div>

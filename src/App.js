@@ -6,7 +6,7 @@ import Formation from './Components/Formation';
 import Header from './Components/Header';
 import Contact from './Components/Contact';
 import Stack from './Components/Stack';
-import CarouselWCS from './Components/CarouselWCS';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Formation />
       <Stack/>
       <Contact/>
-      <CarouselWCS/>
+      <Footer />
     </div>
   );
 }
