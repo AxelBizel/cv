@@ -15,15 +15,7 @@ const Experience = () => {
       <br></br>
       <Row>
         <Col sm="12" lg="6">
-          <div
-            style={{
-              backgroundColor: "#ffffff1d",
-              borderColor: "#333",
-              borderRadius: "5px",
-              padding: "2vh 2vw",
-              margin: "2vh 2vw"
-            }}
-          >
+          <div className="experience-item">
             <div className="experience-header">
               <img
                 src={WCSlogo}
@@ -61,15 +53,7 @@ const Experience = () => {
         </Col>
 
         <Col sm="12" lg="6">
-          <div
-            style={{
-              backgroundColor: "#ffffff1d",
-              borderColor: "#333",
-              borderRadius: "5px",
-              padding: "2vh 2vw",
-              margin: "2vh 2vw"
-            }}
-          >
+          <div className="experience-item">
             <div className="experience-header">
               <img
                 src={IDIX}
@@ -102,15 +86,7 @@ const Experience = () => {
       </Row>
       <Row>
         <Col sm="12" lg="6">
-          <div
-            style={{
-              backgroundColor: "#ffffff1d",
-              borderColor: "#333",
-              borderRadius: "5px",
-              padding: "2vh 2vw",
-              margin: "2vh 2vw"
-            }}
-          >
+          <div className="experience-item">
             <div className="experience-header">
               <img
                 src={Mind}
@@ -121,7 +97,7 @@ const Experience = () => {
               <div className="experience-title">
                 <h3>Journaliste économie numérique</h3>
                 <h4>
-                  <strong>Mind Média (ex-Satellinet)</strong>
+                  <strong>Mind Média (ex&nbsp;-&nbsp;Satellinet)</strong>
                 </h4>
                 <p>
                   <em>2014-2015</em>
@@ -142,15 +118,7 @@ const Experience = () => {
         </Col>
 
         <Col sm="12" lg="6">
-          <div
-            style={{
-              backgroundColor: "#ffffff1d",
-              borderColor: "#333",
-              borderRadius: "5px",
-              padding: "2vh 2vw",
-              margin: "2vh 2vw"
-            }}
-          >
+          <div className="experience-item">
             <div className="experience-header">
               <img
                 src={LaCroix}
@@ -159,9 +127,9 @@ const Experience = () => {
                 className="experience-logo"
               />
               <div className="experience-title">
-                <h3>Journaliste Web</h3>{" "}
+                <h3>Journaliste Web</h3>
                 <h4>
-                  <strong>LaCroix.com (groupe Bayard)</strong>
+                  <strong>LaCroix.com (groupe&nbsp;Bayard)</strong>
                 </h4>
                 <p>
                   <em>2013-2014</em>

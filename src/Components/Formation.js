@@ -24,7 +24,12 @@ const Formation = () => {
                 <h5>
                   <em>(2019-2020)</em>
                 </h5>
-                <p>Titre “Développeur web et web mobile” (RNCP, niveau III)<br/> Parcours React - Node.js</p>
+              </div>
+              <div className="formation-details">
+                <p>
+                  Titre “Développeur web et web mobile” (RNCP, niveau III)
+                  <br /> Parcours React - Node.js
+                </p>
               </div>
             </div>
           </div>
@@ -40,14 +45,12 @@ const Formation = () => {
                 className="formation-logo"
               />
               <div className="formation-title">
-                <h3>
-                  École de Journalisme
-                  <br />
-                  de Grenoble
-                </h3>
+                <h3>École de Journalisme de Grenoble</h3>
                 <h5>
                   <em>(2011-2013)</em>
                 </h5>
+              </div>
+              <div className="formation-details">
                 <p>
                   Master Pro, reconnu par la CPNEJ, spécialité web, mention B
                 </p>
@@ -72,9 +75,9 @@ const Formation = () => {
                 <h5>
                   <em>(2005-2010)</em>
                 </h5>
-                <p>
-                  Master de recherche en histoire contemporaine, mention TB
-                </p>
+              </div>
+              <div className="formation-details">
+                <p>Master de recherche en histoire contemporaine, mention TB</p>
               </div>
             </div>
           </div>
@@ -94,7 +97,12 @@ const Formation = () => {
                 <h5>
                   <em>(2004)</em>
                 </h5>
-                <p>Spécialité Maths. <br/>Mention B, 2 ans d’avance.</p>
+              </div>
+              <div className="formation-details">
+                <p>
+                  Spécialité Maths. 
+                  Mention B, 2 ans d’avance.
+                </p>
               </div>
             </div>
           </div>

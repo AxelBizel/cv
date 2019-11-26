@@ -243,54 +243,71 @@ h6 {
 
 /* EXPERIENCE SECTION */
 
+.experience-item{
+  padding: 2vh 2vw;
+  margin: 2vh 2vw;
+  border-radius: 3px;
+  background-color: #ffffff1d;
+}
+
 .experience-header {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
 }
 .experience-title {
   display: inline-block;
-  padding-left: 2vw;
+  margin: 1vh 1vw;
 }
 
 .experience-details {
-  padding-top: 2vh;
+  padding-bottom: 1vh;
 }
 
 .experience-logo {
   border-radius: 50%;
+  margin: 1vh 1vw;
 }
 
 /* FORMATION SECTION */
 
 .formation-item {
-  padding: 2vw 2vh;
-  margin: 2vw 2vh;
+  padding: 2vh 2vw;
+  margin: 2vh 2vw;
   border-radius: 3px;
   background-color: #ffffff1d;
 }
 
 .formation-logo {
   border-radius: 50%;
+  margin: 1vh 1vw;
 }
 
 .formation-header {
   display: flex;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
 .formation-title {
   display: inline-block;
-  padding-left: 2vw;
+  margin: 1vh 1vw;
 }
 
 .formation-details {
-  padding-top: 2vh;
+  margin: 1vh 1vw;
 }
 
 /* CONTACT SECTION */
 
 .form-container {
+  display: flex;
+  
   max-width: 600px;
   align-content: center;
+  margin: auto;
 }
 
 /* FOOTER SECTION */
@@ -333,12 +350,10 @@ h6 {
   color: #666666;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer-logo-container {
-  /* display: flex;
-  flex-direction: row; */
   align-self: center;
   justify-content: space-around;
   text-align: center;
@@ -362,7 +377,6 @@ h6 {
   font-size: 0.8em;
   text-align: center;
   margin: auto;
-  align-items: baseline;
   align-self: baseline;
   padding-top: 20vh;
 }
