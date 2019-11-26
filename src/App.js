@@ -15,16 +15,16 @@ function App() {
         <Header />
       </div>
       <NavbarComponent />
-      <div id="experience">
+      <div id="experience" className="section">
         <Experience />
       </div>
-      <div id="formation">
+      <div id="formation" className="section">
         <Formation />
       </div>
-      <div id="stack">
+      <div id="stack" className="section">
         <Stack />
       </div>
-      <div id="contact">
+      <div id="contact" className="section">
         <Contact />
       </div>
       <Footer />

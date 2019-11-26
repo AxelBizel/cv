@@ -134,10 +134,13 @@ html {
   color: lightgrey;
 }
 
+.section{
+  padding:5vh 5vw;
+}
 .section-titles {
   font-size: 3em;
   text-align: center;
-  margin: 5vh 5vw;
+  padding: 5vh 5vw;
 }
 
 p,
