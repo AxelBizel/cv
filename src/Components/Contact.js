@@ -16,7 +16,7 @@ const Contact = props => {
       <br></br>
       <h2 className="section-titles">Contact</h2>
       <br></br>
-      <Form className="form-container">
+      <Form className="form-container" action="mailto:axel.bizel@gmail.com" method="post" name="contact" enctype="text/plain">
         <Row form>
           <Col>
             <FormGroup>
@@ -25,7 +25,7 @@ const Contact = props => {
                 type="email"
                 name="email"
                 id="email"
-                placeholder="yourname@example.com"
+                placeholder="vous@example.com"
               />
             </FormGroup>
           </Col>
@@ -38,7 +38,7 @@ const Contact = props => {
             </FormGroup>
           </Col>
         </Row>
-        <button className="form-button" onClick="mailto:axel.bizel@gmail.com">
+        <button className="form-button" type="submit">
           Envoyer !
         </button>
       </Form>

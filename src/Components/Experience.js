@@ -40,21 +40,33 @@ const Experience = () => {
               <ul>
                 <li>
                   Projet 1 : Site vitrine fictif - HTML/CSS -
-                  <a href="https://tinyurl.com/larelWCS">
+                  <a
+                    href="https://tinyurl.com/larelWCS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={faLink} />
                     &nbsp;La Religieuse
                   </a>
                 </li>
                 <li>
                   Projet 2 : Jeu de Memory - Vanilla JS -{" "}
-                  <a href="https://tinyurl.com/memorySP">
+                  <a
+                    href="https://tinyurl.com/memorySP"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={faLink} />
                     &nbsp;South Park Memory
                   </a>
                 </li>
                 <li>
                   Projet 3 : Jeu mobile / PWA - React -{" "}
-                  <a href="https://tinyurl.com/strangler-things">
+                  <a
+                    href="https://tinyurl.com/strangler-things"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={faLink} />
                     &nbsp;Strangler Things
                   </a>
@@ -92,21 +104,35 @@ const Experience = () => {
             <div className="experience-details">
               <ul>
                 <li>
-                  Conception et réalisation d'infographies et datavisualisations pour la presse -
-                  <a href="https://static.idix.fr/widget/prix-nobel/">
+                  Conception et réalisation d'infographies et datavisualisations
+                  pour la presse -
+                  <a
+                    href="https://static.idix.fr/widget/prix-nobel/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     <FontAwesomeIcon icon={faLink} />
-                    &nbsp;Prix Nobel 2015 - 
+                    &nbsp;Prix Nobel 2015 -
                   </a>
-                  <a href="https://static.idix.fr/infographie/galaxie-djihadiste/index.html">
+                  <a
+                    href="https://static.idix.fr/infographie/galaxie-djihadiste/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     <FontAwesomeIcon icon={faLink} />
-                    &nbsp;La galaxie djihadiste 
+                    &nbsp;La galaxie djihadiste
                   </a>
                 </li>
                 <li>
-                  Pilotage de projets web (dispositifs électoraux, événements spéciaux, etc…) -{" "}
-                  <a href="https://static.idix.fr/elections/us/pr2016/us-resultats/index.html">
+                  Pilotage de projets web (dispositifs électoraux, événements
+                  spéciaux, etc…) -{" "}
+                  <a
+                    href="https://static.idix.fr/elections/us/pr2016/us-resultats/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     <FontAwesomeIcon icon={faLink} />
                     &nbsp;Élection américaine 2016
