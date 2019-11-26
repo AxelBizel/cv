@@ -25,8 +25,9 @@ import "../App.css";
 const Stack = () => {
   return (
     <Container>
+      <br></br>
       <h2 className="section-titles">Stack</h2>
-
+      <br></br>
       <Row>
         <Col xs="6" sm="4" md="3" xl="2" className="my-2">
           <Card

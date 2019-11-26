@@ -11,6 +11,11 @@ import {
 import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
+import Header from "./Header";
+import Experience from "./Experience";
+import Formation from "./Formation";
+import Stack from "./Stack";
+import Contact from "./Contact";
 
 const NavbarComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,34 +24,29 @@ const NavbarComponent = () => {
 
   return (
     <div className="sticky-top">
-      <Navbar className="navbar-bg" light expand="sm">
-        <NavbarBrand href="/">
-          {" "}
-          <FontAwesomeIcon icon={faHome} />
-        </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/Experience">Experience</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Formation</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Stack</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Contact</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/AxelBizel" target="_blank">
-                GitHub
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
+        <Navbar className="navbar-bg" light expand="sm">
+          <NavbarBrand href="#header">
+            <FontAwesomeIcon icon={faHome} />
+          </NavbarBrand>
+          <NavbarToggler onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar>
+            <Nav className="mr-auto" navbar>
+              <NavItem>
+                <NavLink href="#experience">Experience</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#formation">Formation</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#stack">Stack</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#contact">Contact</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+       
     </div>
   );
 };

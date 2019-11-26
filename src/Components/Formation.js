@@ -8,7 +8,9 @@ import Bac from "../Images/bac-es.png";
 const Formation = () => {
   return (
     <Container>
+      <br></br>
       <h2 className="section-titles">Formation</h2>
+      <br></br>
       <Row>
         <Col sm="12" lg="6">
           <div className="formation-item">

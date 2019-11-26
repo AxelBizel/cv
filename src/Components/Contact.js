@@ -14,7 +14,9 @@ import "../App.css";
 const Contact = props => {
   return (
     <Container className="form-container">
+      <br></br>
       <h2 className="section-titles">Contact</h2>
+      <br></br>
         <Form>
           <Row form>
             <Col>

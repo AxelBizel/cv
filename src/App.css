@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   background: linear-gradient(
       323deg,
@@ -133,7 +137,7 @@
 .section-titles {
   font-size: 3em;
   text-align: center;
-  margin: 10vh 10vw;
+  margin: 5vh 5vw;
 }
 
 p,
@@ -357,7 +361,7 @@ h6 {
   align-self: center;
   justify-content: space-around;
   text-align: center;
-  padding-top: 20vh;
+  padding: 20vh;
 }
 
 .footer-logo {
@@ -378,5 +382,5 @@ h6 {
   text-align: center;
   margin: auto;
   align-self: baseline;
-  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
