@@ -6,6 +6,9 @@ import IDIX from "../Images/idix.png";
 import LaCroix from "../Images/lacroix.png";
 import Mind from "../Images/mind-logo.jpg";
 import CarouselIDIX from "./CarouselIDIX";
+import CarouselWCS from "./CarouselWCS";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const Experience = () => {
   return (
@@ -24,7 +27,7 @@ const Experience = () => {
                 className="experience-logo"
               />
               <div className="experience-title">
-                <h3>Développeur front-end</h3>
+                <h3>Développeur full-stack junior</h3>
                 <h4>
                   <strong>Wild Code School</strong>
                 </h4>
@@ -36,18 +39,33 @@ const Experience = () => {
             <div className="experience-details">
               <ul>
                 <li>
-                  Projet 1 : Site vitrine - HTML/CSS - tinyurl.com/larelWCS{" "}
+                  Projet 1 : Site vitrine fictif - HTML/CSS -
+                  <a href="https://tinyurl.com/larelWCS">
+                    <FontAwesomeIcon icon={faLink} />
+                    &nbsp;La Religieuse
+                  </a>
                 </li>
                 <li>
-                  Projet 2 : Jeu de Memory - Vanilla JS - tinyurl.com/memorySP
+                  Projet 2 : Jeu de Memory - Vanilla JS -{" "}
+                  <a href="https://tinyurl.com/memorySP">
+                    <FontAwesomeIcon icon={faLink} />
+                    &nbsp;South Park Memory
+                  </a>
                 </li>
-                <li>Jeu mobile / PWA - React - tinyurl.com/strangler-things</li>
                 <li>
-                  Projet 4 : Site vitrine - React / Node.js - Piqueur de rue -
-                  en cours
+                  Projet 3 : Jeu mobile / PWA - React -{" "}
+                  <a href="https://tinyurl.com/strangler-things">
+                    <FontAwesomeIcon icon={faLink} />
+                    &nbsp;Strangler Things
+                  </a>
+                </li>
+                <li>
+                  Projet 4 : Site vitrine et back-office dédié - React / Node.js
+                  - Piqueur de rue - en cours
                 </li>
                 <li>Participation à deux Hackathons</li>
               </ul>
+              <CarouselWCS />
             </div>
           </div>
         </Col>
@@ -74,10 +92,28 @@ const Experience = () => {
             <div className="experience-details">
               <ul>
                 <li>
-                  Conception et réalisation de datavisualisations pour la presse
+                  Conception et réalisation d'infographies et datavisualisations pour la presse -
+                  <a href="https://static.idix.fr/widget/prix-nobel/">
+                    {" "}
+                    <FontAwesomeIcon icon={faLink} />
+                    &nbsp;Prix Nobel 2015 - 
+                  </a>
+                  <a href="https://static.idix.fr/infographie/galaxie-djihadiste/index.html">
+                    {" "}
+                    <FontAwesomeIcon icon={faLink} />
+                    &nbsp;La galaxie djihadiste 
+                  </a>
                 </li>
-                <li>Traitement, analyse et nettoyage de bases de données</li>
-                <li>Pilotage de projets web (dispositifs électoraux, etc…)</li>
+                <li>
+                  Pilotage de projets web (dispositifs électoraux, événements spéciaux, etc…) -{" "}
+                  <a href="https://static.idix.fr/elections/us/pr2016/us-resultats/index.html">
+                    {" "}
+                    <FontAwesomeIcon icon={faLink} />
+                    &nbsp;Élection américaine 2016
+                  </a>
+                </li>
+                <li>Utilisation, analyse et nettoyage de bases de données</li>
+                <li>Suivi de commandes clients</li>
               </ul>
               <CarouselIDIX />
             </div>

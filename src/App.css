@@ -132,13 +132,18 @@ html {
     ),
     linear-gradient(90deg, hsl(237, 0%, 13%), hsl(237, 0%, 13%));
   color: lightgrey;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .section{
-  padding:5vh 5vw;
+  padding:2vh 0 0 0;
 }
 .section-titles {
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
   padding: 5vh 5vw;
 }
@@ -208,6 +213,7 @@ h6 {
   height: 25vmin;
 }
 
+
 /* NAVBAR SECTION */
 
 .navbar-bg {
@@ -252,7 +258,7 @@ h6 {
 
 .experience-item{
   padding: 2vh 2vw;
-  margin: 2vh 2vw;
+  margin: 2vh 0;
   border-radius: 3px;
   background-color: #ffffff1d;
 }
@@ -260,21 +266,40 @@ h6 {
 .experience-header {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
+}
+
+.experience-header h3{
+  font-size: 1.5em;
+}
+
+.experience-header h4{
+  font-size: 1.3em;
+}
+
+.experience-logo {
+  border-radius: 50%;
+  margin: 1vh 1vw;
 }
 .experience-title {
   display: inline-block;
-  margin: 1vh 1vw;
+  margin: 2vh 1vw;
 }
 
 .experience-details {
   padding-bottom: 1vh;
 }
 
-.experience-logo {
-  border-radius: 50%;
-  margin: 1vh 1vw;
+.experience-details a {
+  font-weight: bold;
+  color: lightgrey;
+}
+
+.experience-details a:hover {
+  font-weight: bolder;
+  color: rgb(65, 214, 214);
+  text-decoration: none;
 }
 
 /* FORMATION SECTION */
@@ -293,9 +318,9 @@ h6 {
 
 .formation-header {
   display: flex;
-  align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .formation-title {
@@ -307,14 +332,38 @@ h6 {
   margin: 1vh 1vw;
 }
 
+.formation-header h3{
+  font-size: 1.5em;
+}
+.formation-header h5{
+  font-size: 1.1em;
+}
 /* CONTACT SECTION */
 
 .form-container {
   display: flex;
-  
+  flex-direction:column ;
   max-width: 600px;
   align-content: center;
-  margin: auto;
+  margin: 0 auto;
+  font-family: "Roboto Mono", monospace;
+  padding: 0 0 10vh 0;
+}
+
+.form-button{
+  max-width: 200px;
+  align-self: center;
+  margin: 3vh 3vw;
+  padding:1vh 2vw;
+  color: lightgrey;
+  border-radius: 3px;
+  background-color: #ffffff1d;
+  border:none;
+}
+
+.form-button:hover{
+ color:rgb(36, 32, 32);
+ background-color:lightgrey;
 }
 
 /* FOOTER SECTION */
@@ -362,9 +411,8 @@ h6 {
 
 .footer-logo-container {
   align-self: center;
-  justify-content: space-around;
   text-align: center;
-  padding: 20vh;
+  padding-top:20vh;
 }
 
 .footer-logo {
@@ -385,5 +433,5 @@ h6 {
   text-align: center;
   margin: auto;
   align-self: baseline;
-  padding-bottom: 20vh;
+  padding: 20vh 2vw;
 }
