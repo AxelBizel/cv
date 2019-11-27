@@ -201,6 +201,7 @@ h6 {
       rgb(218, 218, 218) 100.002%
     );
   min-height: 92vh;
+  background-attachment: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
