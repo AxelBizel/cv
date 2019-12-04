@@ -11,18 +11,22 @@ const itemsWCS = [
     // altText: 'Slide 1',
     // caption: 'Slide 1',
     // header: 'Slide 1 Header',
+    caption:'',
     key: '1'
   },
   {
     src:`${MemorySP}`,
+    caption:'',
     key: '2'
   },
   {
     src:`${StranglerThings}`,
+    caption:'',
     key: '3'
   },
   {
     src:`${JsonsQuizz}`,
+    caption:'',
     key:'4'
   }
 ];

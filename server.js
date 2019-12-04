@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 5000;
 const nodemailer = require('nodemailer');
-const creds = require('./config');
+const creds = require('./config/config');
 
 // console.log that your server is up and running
 app.listen(port, () => console.log(`Listening on port ${port}`));
@@ -14,7 +14,7 @@ app.get('/express_backend', (req, res) => {
 
 
 
-var transport = {
+const transport = {
   host: 'smtp.gmail.com', // e.g. smtp.gmail.com
   auth: {
     user: creds.USER,
@@ -22,7 +22,7 @@ var transport = {
   }
 }
 
-var transporter = nodemailer.createTransport(transport)
+const transporter = nodemailer.createTransport(transport)
 
 transporter.verify((error, success) => {
   if (error) {

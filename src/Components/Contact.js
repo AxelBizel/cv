@@ -43,7 +43,7 @@ class Contact extends Component {
         <br></br>
         <h2 className="section-titles">Contact</h2>
         <br></br>
-        <Form className="form-container" name="contact" enctype="text/plain">
+        <Form className="form-container" name="contact" encType="text/plain">
           <Row form>
             <Col>
               <FormGroup>

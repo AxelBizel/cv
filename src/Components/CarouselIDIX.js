@@ -11,18 +11,22 @@ const itemsIdix = [
    // altText: 'Slide 1',
     // caption: 'Slide 1',
     // header: 'Slide 1 Header',
+    caption:"",
     key: "1"
   },
   {
     src:`${Galaxie}`,
+    caption:'',
     key: "2"
   },
   {
     src:`${ElectionsUs}`,
+    caption:'',
     key: "3"
   },
   {
     src:`${Nobel}`,
+    caption:'',
     key: "4"
   }
 ];
