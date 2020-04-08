@@ -7,8 +7,10 @@ import Header from "./Components/Header";
 import Contact from "./Components/Contact";
 import Stack from "./Components/Stack";
 import Footer from "./Components/Footer";
+import AOS from "aos"
 
 function App() {
+  AOS.init();
   return (
     <div className="App">
       <div id="header">

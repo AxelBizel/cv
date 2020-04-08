@@ -23,6 +23,10 @@ import ReactLogo from "../Images/React2.png";
 import "../App.css";
 
 const Stack = () => {
+
+  const stackElements = [{
+
+  } ]
   return (
     <Container>
       <br></br>
