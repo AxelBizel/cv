@@ -12,7 +12,13 @@ const Formation = () => {
       <h2 className="section-titles">Formation</h2>
       <br></br>
       <Row>
-        <Col sm="12" lg="6">
+        <Col
+          sm="12"
+          lg="6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
           <div className="formation-item">
             <div className="formation-header">
               <img
@@ -30,14 +36,20 @@ const Formation = () => {
             </div>
             <div className="formation-details">
               <p>
-                Titre “Développeur web et web mobile” (RNCP, niveau III)
-                <br /> Parcours React - Node.js
+                Titre RNCP niveau III “Développeur web et web mobile”,
+                spécialité React - Node.js
               </p>
             </div>
           </div>
         </Col>
 
-        <Col sm="12" lg="6">
+        <Col
+          sm="12"
+          lg="6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
           <div className="formation-item">
             <div className="formation-header">
               <img
@@ -61,7 +73,13 @@ const Formation = () => {
       </Row>
 
       <Row>
-        <Col sm="12" lg="6">
+        <Col
+          sm="12"
+          lg="6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
           <div className="formation-item">
             <div className="formation-header">
               <img
@@ -83,7 +101,13 @@ const Formation = () => {
           </div>
         </Col>
 
-        <Col sm="12" lg="6">
+        <Col
+          sm="12"
+          lg="6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+        >
           <div className="formation-item">
             <div className="formation-header">
               <img
