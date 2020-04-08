@@ -17,7 +17,13 @@ const Experience = () => {
       <h2 className="section-titles">Expérience</h2>
       <br></br>
       <Row>
-        <Col sm="12" lg="6">
+        <Col
+          sm="12"
+          lg="6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
           <div className="experience-item">
             <div className="experience-header">
               <img
@@ -82,7 +88,13 @@ const Experience = () => {
           </div>
         </Col>
 
-        <Col sm="12" lg="6">
+        <Col
+          sm="12"
+          lg="6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
           <div className="experience-item">
             <div className="experience-header">
               <img
@@ -147,7 +159,13 @@ const Experience = () => {
         </Col>
       </Row>
       <Row>
-        <Col sm="12" lg="6">
+        <Col
+          sm="12"
+          lg="6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
           <div className="experience-item">
             <div className="experience-header">
               <img
@@ -179,7 +197,13 @@ const Experience = () => {
           </div>
         </Col>
 
-        <Col sm="12" lg="6">
+        <Col
+          sm="12"
+          lg="6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+        >
           <div className="experience-item">
             <div className="experience-header">
               <img
