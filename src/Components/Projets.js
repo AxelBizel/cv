@@ -10,6 +10,8 @@ import {
   CardBody
 } from "reactstrap";
 import StranglerThings from "../Images/stranglerthings.png";
+import IDIX_US_Elections from "../Images/IDIX_US_Elections.jpg";
+import PiqueurDeRue from "../Images/PiqueurDeRue.jpg";
 import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
@@ -17,69 +19,55 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 const Projets = () => {
   const projectsElements = [
     {
-      name: "Strangler Things",
-      img: `${StranglerThings}`,
-      link:
-        "https://wildcodeschool.github.io/lyon-0919-react-p2-strangler-things/#/game",
-      description:
-        "Jeu mobile réalisé avec React dans le cadre de la Wild Code School",
-      linkDescription: "Voir sur Github"
+      name: "Piqueur de rue",
+      date: "Déc. 2019 - Janvier 2020",
+      img: `${PiqueurDeRue}`,
+      links: [
+        "https://piqueurderue.greenterroir.com/",
+        "https://github.com/AxelBizel/piqueur-de-rue"
+      ],
+      linksDescriptions: ["Voir le site", "Voir sur Github"],
+      description: "Refonte site pour l'agence de tatouage Piqueur de rue",
+      details: [
+        "Réalisation des wireframes et maquettes avec Adobe XD",
+        "Développement front-end et intégration",
+        "Création d'une base de données hébergeant tous les contenus dynamiques du site",
+        "Mise en place d'une interface d'administration avec authentification JWT",
+        "Stack : React - Node.js - MySQL - AdobeXD - AOS - JWT - Nodemailer"
+      ]
     },
     {
       name: "Strangler Things",
+      date: "Oct. - Nov 2019",
       img: `${StranglerThings}`,
-      link:
-        "https://wildcodeschool.github.io/lyon-0919-react-p2-strangler-things/#/game",
+      links: [
+        "https://wildcodeschool.github.io/lyon-0919-react-p2-strangler-things/#/game"
+      ],
+      linksDescriptions: ["Voir sur Github"],
       description:
-        "Jeu mobile réalisé avec React dans le cadre de la Wild Code School"
+        "Jeu mobile sur le thême des Simpsons réalisé dans le cadre de la Wild Code School",
+      details: [
+        "Conception et scénarisation du jeu",
+        "Réalisation des wireframes et maquette avec Adobe XD",
+        "Développement Javascript avec React"
+      ]
     },
     {
-      name: "Strangler Things",
-      img: `${StranglerThings}`,
-      link:
-        "https://wildcodeschool.github.io/lyon-0919-react-p2-strangler-things/#/game",
+      name: "Élections américaines de 2016",
+      date: "Oct. - Nov 2016",
+      img: `${IDIX_US_Elections}`,
+      links: [
+        "https://static.idix.fr/elections/us/pr2016/us-resultats/index.html",
+        "http://www.bfmtv.com/international/resultats-presidentielle-americaine-1055823.html"
+      ],
+      linksDescriptions: ["Voir le widget", "Voir sur BFMTV.com"],
       description:
-        "Jeu mobile réalisé avec React dans le cadre de la Wild Code School"
-    },
-    {
-      name: "Strangler Things",
-      img: `${StranglerThings}`,
-      link:
-        "https://wildcodeschool.github.io/lyon-0919-react-p2-strangler-things/#/game",
-      description:
-        "Jeu mobile réalisé avec React dans le cadre de la Wild Code School"
-    },
-    {
-      name: "Strangler Things",
-      img: `${StranglerThings}`,
-      link:
-        "https://wildcodeschool.github.io/lyon-0919-react-p2-strangler-things/#/game",
-      description:
-        "Jeu mobile réalisé avec React dans le cadre de la Wild Code School"
-    },
-    {
-      name: "Strangler Things",
-      img: `${StranglerThings}`,
-      link:
-        "https://wildcodeschool.github.io/lyon-0919-react-p2-strangler-things/#/game",
-      description:
-        "Jeu mobile réalisé avec React dans le cadre de la Wild Code School"
-    },
-    {
-      name: "Strangler Things",
-      img: `${StranglerThings}`,
-      link:
-        "https://wildcodeschool.github.io/lyon-0919-react-p2-strangler-things/#/game",
-      description:
-        "Jeu mobile réalisé avec React dans le cadre de la Wild Code School"
-    },
-    {
-      name: "Strangler Things",
-      img: `${StranglerThings}`,
-      link:
-        "https://wildcodeschool.github.io/lyon-0919-react-p2-strangler-things/#/game",
-      description:
-        "Jeu mobile réalisé avec React dans le cadre de la Wild Code School"
+        "Cartogramme interactif représentant les résultats de l'élection pour le compte de plusieurs médias en ligne dont BFMTV.com",
+      details: [
+        "Conception et scénarisation de l'infographie interactive",
+        "Conception d'un back-office permettant d'injecter les résultats",
+        "Saisie en temps réel des résultats le soir de l'élection"
+      ]
     }
   ];
 
@@ -95,7 +83,7 @@ const Projets = () => {
           {projectsElements.map((e, i) => (
             <Col
               xs="12"
-             lg="6"
+              md="6"
               className="my-2"
               data-aos="flip-left"
               data-aos-duration="500"
@@ -106,33 +94,56 @@ const Projets = () => {
                 inverse
                 style={{ backgroundColor: "#ffffff1d", borderColor: "#333" }}
               >
-                <a href={e.link} target="_blank" rel="noopener noreferrer">
+                <a href={e.links[0]} target="_blank" rel="noopener noreferrer">
                   <CardImg top width="100%" src={e.img} alt={e.name} />
                 </a>
                 <CardBody className="p-0">
                   <CardTitle
                     style={{
-                      textAlign: "center",
-                      fontFamily: "Lato",
-                      textTransform: "uppercase",
-                      marginTop: "1vh"
+                      textAlign: "center"
                     }}
                   >
-                    <h5>{e.name}</h5>
+                    <h5
+                      style={{
+                        fontFamily: "Lato",
+                        textTransform: "uppercase",
+                        marginTop: "2vh"
+                      }}
+                    >
+                      {e.name}
+                    </h5>
+                    <p>
+                      <em>{e.date}</em>
+                    </p>
                   </CardTitle>
                   <CardText>
                     <p>
                       <em>{e.description}</em>
                     </p>
+                    <ul>
+                      {e.details.map(d => (
+                        <li>{d}</li>
+                      ))}
+                    </ul>
                     <p>
-                      <a
-                        href={e.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FontAwesomeIcon icon={faLink} />
-                        &nbsp;{e.linkDescription}
-                      </a>
+                      {e.links.map((l, i) => (
+                        <>
+                          <a
+                            href={l}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                              fontFamily: "Lato",
+                              marginTop: "2vh auto",
+                              textAlign:"center"
+                            }}
+                          >
+                            <FontAwesomeIcon icon={faLink} />
+                            &nbsp; &nbsp; &nbsp;{e.linksDescriptions[i]}
+                          </a>{" "}
+                          <br />{" "}
+                        </>
+                      ))}
                     </p>
                   </CardText>
                 </CardBody>
