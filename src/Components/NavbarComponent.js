@@ -30,6 +30,9 @@ const NavbarComponent = () => {
               <NavLink href="#experience">Experience</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink href="#projets">Projets</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="#formation">Formation</NavLink>
             </NavItem>
             <NavItem>

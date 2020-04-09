@@ -2,6 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.formation-wrapper,
+.stack-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .App {
   background: linear-gradient(
       323deg,
@@ -139,13 +145,14 @@ html {
   min-height: 100vh;
 }
 
-.section{
-  padding:2vh 0 0 0;
+.section {
+  padding: 2vh 0 0 0;
 }
 .section-titles {
   font-size: 2.5em;
   text-align: center;
-  padding: 5vh 5vw;
+  padding: 7vh 5vw 3vh 5vw;
+  text-transform: uppercase;
 }
 
 p,
@@ -160,7 +167,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Lato", sans-serif;
 }
 
 /* HEADER SECTION */
@@ -204,16 +211,31 @@ h6 {
   background-attachment: fixed;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.header-contents {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   color: #666666;
   text-align: left;
 }
 
+.header-text {
+  max-width: 250px;
+}
+
+.header-title {
+  font-size: 2.5em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 .header img {
   height: 25vmin;
 }
-
 
 /* NAVBAR SECTION */
 
@@ -257,7 +279,26 @@ h6 {
 
 /* EXPERIENCE SECTION */
 
-.experience-item{
+.vertical-timeline-element-content {
+  background-color: #ffffff1d !important;
+  box-shadow: 0 0px !important;
+  border: 2px solid #ffffff;
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right: 10px solid #ffffff !important ;
+}
+
+.vertical-timeline::before {
+  width: 2px !important;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 2px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.experience-item {
   padding: 2vh 2vw;
   margin: 2vh 0;
   border-radius: 3px;
@@ -271,11 +312,11 @@ h6 {
   align-items: center;
 }
 
-.experience-header h3{
+.experience-header h3 {
   font-size: 1.5em;
 }
 
-.experience-header h4{
+.experience-header h4 {
   font-size: 1.3em;
 }
 
@@ -307,7 +348,7 @@ h6 {
 
 .formation-item {
   padding: 2vh 2vw;
-  margin: 2vh 2vw;
+  margin: 0 0 5vh 0;
   border-radius: 3px;
   background-color: #ffffff1d;
 }
@@ -333,17 +374,17 @@ h6 {
   margin: 1vh 1vw;
 }
 
-.formation-header h3{
+.formation-header h3 {
   font-size: 1.5em;
 }
-.formation-header h5{
+.formation-header h5 {
   font-size: 1.1em;
 }
 /* CONTACT SECTION */
 
 .form-container {
   display: flex;
-  flex-direction:column ;
+  flex-direction: column;
   max-width: 600px;
   align-content: center;
   margin: 0 auto;
@@ -351,20 +392,20 @@ h6 {
   padding: 0 0 10vh 0;
 }
 
-.form-button{
+.form-button {
   max-width: 200px;
   align-self: center;
   margin: 3vh 3vw;
-  padding:1vh 2vw;
+  padding: 1vh 2vw;
   color: lightgrey;
   border-radius: 3px;
   background-color: #ffffff1d;
-  border:none;
+  border: none;
 }
 
-.form-button:hover{
- color:rgb(36, 32, 32);
- background-color:lightgrey;
+.form-button:hover {
+  color: rgb(36, 32, 32);
+  background-color: lightgrey;
 }
 
 /* FOOTER SECTION */
@@ -413,7 +454,7 @@ h6 {
 .footer-logo-container {
   align-self: center;
   text-align: center;
-  padding-top:20vh;
+  padding-top: 20vh;
 }
 
 .footer-logo {

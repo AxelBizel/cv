@@ -8,6 +8,8 @@ import Contact from "./Components/Contact";
 import Stack from "./Components/Stack";
 import Footer from "./Components/Footer";
 import AOS from "aos"
+import ExperienceTimeline from "./Components/ExperienceTimeline";
+import Projets from "./Components/Projets";
 
 function App() {
   AOS.init();
@@ -17,8 +19,14 @@ function App() {
         <Header />
       </div>
       <NavbarComponent />
-      <div id="experience" className="section">
+      {/* <div id="experience" className="section">
         <Experience />
+      </div> */}
+      <div id="experience" className="section">
+        <ExperienceTimeline />
+      </div>
+      <div id="projets" className="section">
+        <Projets />
       </div>
       <div id="formation" className="section">
         <Formation />

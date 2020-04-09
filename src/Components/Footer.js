@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container } from "reactstrap";
+import { Row, Col, Container, Form, FormGroup, Label, Input } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -52,7 +52,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               alt="Mon CV au format PDF"
-              >
+            >
               <FontAwesomeIcon className="footer-logo" icon={faFileDownload} />
               <p>CV</p>
             </a>

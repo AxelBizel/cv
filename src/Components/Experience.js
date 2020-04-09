@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import { Row, Col, Container } from "reactstrap";
-import WCSlogo from "../Images/WCS.jpg";
+import MAANS from "../Images/MAANS-Picto.png";
 import IDIX from "../Images/idix.png";
 import LaCroix from "../Images/lacroix.png";
 import Mind from "../Images/mind-logo.jpg";
@@ -11,12 +11,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const Experience = () => {
+ 
   return (
     <Container>
       <br></br>
-      <h2 className="section-titles">Expérience</h2>
+      <div data-aos="zoom-in">
+        <h2 className="section-titles"> Expérience</h2>
+      </div>
       <br></br>
-      <Row>
+      <Row className="justify-content-center">
         <Col
           sm="12"
           lg="6"
@@ -27,63 +30,44 @@ const Experience = () => {
           <div className="experience-item">
             <div className="experience-header">
               <img
-                src={WCSlogo}
+                src={MAANS}
                 alt="WCS logo"
                 height="100px"
                 className="experience-logo"
               />
               <div className="experience-title">
-                <h3>Développeur full-stack junior</h3>
+                <h3>Développeur full-stack Javascript</h3>
                 <h4>
-                  <strong>Wild Code School</strong>
+                  <strong>MAANS </strong>
                 </h4>
                 <p>
-                  <em>2019-2020</em>
+                  <em>Depuis février 2020</em>
                 </p>
               </div>
             </div>
             <div className="experience-details">
+              <p>
+                <em>
+                  MAANS (Music as a new sense) est une start-up développant un
+                  fauteuil d'immersion acoustique destiné à améliorer la qualité
+                  de vie au travail et l'expérience client.
+                </em>
+              </p>
               <ul>
                 <li>
-                  Projet 1 : Site vitrine fictif - HTML/CSS -
-                  <a
-                    href="https://tinyurl.com/larelWCS"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FontAwesomeIcon icon={faLink} />
-                    &nbsp;La Religieuse
-                  </a>
+                  Refonte totale du site vitrine et mise en place d'un
+                  back-office sur mesure
                 </li>
                 <li>
-                  Projet 2 : Jeu de Memory - Vanilla JS -{" "}
-                  <a
-                    href="https://tinyurl.com/memorySP"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FontAwesomeIcon icon={faLink} />
-                    &nbsp;South Park Memory
-                  </a>
+                  Création d’un dashboard client de gestion et personnalisation
+                  d’un parc de fauteuils et de visualisation des données
+                  d’utilisation
                 </li>
                 <li>
-                  Projet 3 : Jeu mobile / PWA - React -{" "}
-                  <a
-                    href="https://tinyurl.com/strangler-things"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FontAwesomeIcon icon={faLink} />
-                    &nbsp;Strangler Things
-                  </a>
+                  Stack : React /Svelte.js / Chart.js/ SASS / Node.js /
+                  Sequelize
                 </li>
-                <li>
-                  Projet 4 : Site vitrine et back-office dédié - React / Node.js
-                  - Piqueur de rue - en cours
-                </li>
-                <li>Participation à deux Hackathons</li>
               </ul>
-              <CarouselWCS />
             </div>
           </div>
         </Col>
@@ -106,7 +90,7 @@ const Experience = () => {
               <div className="experience-title">
                 <h3>Datajournaliste / Infographiste</h3>
                 <h4>
-                  <strong>IDIX (ex-Agence Idé)</strong>
+                  <strong>IDIX</strong>
                 </h4>
                 <p>
                   <em>2015-2018</em>
@@ -114,11 +98,18 @@ const Experience = () => {
               </div>
             </div>
             <div className="experience-details">
+              <p>
+                <em>
+                  IDIX (ex-Agence Idé) est une agence de presse spécialisée dans
+                  la production d'infographies et la fourniture de données pour
+                  la presse et l'audiovisuel.
+                </em>
+              </p>
               <ul>
                 <li>
                   Conception et réalisation d'infographies et datavisualisations
                   pour la presse -
-                  <a
+                  {/* <a
                     href="https://static.idix.fr/widget/prix-nobel/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -135,12 +126,12 @@ const Experience = () => {
                     {" "}
                     <FontAwesomeIcon icon={faLink} />
                     &nbsp;La galaxie djihadiste
-                  </a>
+                  </a> */}
                 </li>
                 <li>
                   Pilotage de projets web (dispositifs électoraux, événements
                   spéciaux, etc…) -{" "}
-                  <a
+                  {/* <a
                     href="https://static.idix.fr/elections/us/pr2016/us-resultats/index.html"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -148,17 +139,16 @@ const Experience = () => {
                     {" "}
                     <FontAwesomeIcon icon={faLink} />
                     &nbsp;Élection américaine 2016
-                  </a>
+                  </a> */}
                 </li>
                 <li>Utilisation, analyse et nettoyage de bases de données</li>
                 <li>Suivi de commandes clients</li>
               </ul>
-              <CarouselIDIX />
+              {/* <CarouselIDIX /> */}
             </div>
           </div>
         </Col>
-      </Row>
-      <Row>
+
         <Col
           sm="12"
           lg="6"
@@ -175,9 +165,9 @@ const Experience = () => {
                 className="experience-logo"
               />
               <div className="experience-title">
-                <h3>Journaliste économie numérique</h3>
+                <h3>Journaliste spécialisé</h3>
                 <h4>
-                  <strong>Mind Média (ex&nbsp;-&nbsp;Satellinet)</strong>
+                  <strong>Mind Média </strong>
                 </h4>
                 <p>
                   <em>2014-2015</em>
@@ -185,6 +175,12 @@ const Experience = () => {
               </div>
             </div>
             <div className="experience-details">
+              <p>
+                <em>
+                  Mind Média (ex-Satellinet) est une newsletter hebdomadaire
+                  professionnelle dédiée à l'économie des médias et de la publicité en ligne.
+                </em>
+              </p>
               <ul>
                 <li>
                   Suivi du secteur économique des médias et de la communication
@@ -215,7 +211,7 @@ const Experience = () => {
               <div className="experience-title">
                 <h3>Journaliste Web</h3>
                 <h4>
-                  <strong>LaCroix.com (groupe&nbsp;Bayard)</strong>
+                  <strong>LaCroix.com </strong>
                 </h4>
                 <p>
                   <em>2013-2014</em>
@@ -223,13 +219,18 @@ const Experience = () => {
               </div>
             </div>
             <div className="experience-details">
+            <p>
+                <em>
+                  LaCroix.com (groupe Bayard) est un des principaux sites d'actualité généraliste français.
+                </em>
+              </p>
               <ul>
                 <li>Rédaction d'articles d'actualité générale </li>
                 <li>
                   Enrichissement multimédia et data des articles print en vue de
-                  leur publication sur le site{" "}
+                  leur publication sur le site
                 </li>
-                <li>Frontpage edition et gestion du site en CMS</li>
+                <li>Frontpage editing, gestion du site en CMS, community management</li>
               </ul>
             </div>
           </div>
