@@ -118,7 +118,7 @@ const Stack = () => {
         <h2 className="section-titles">Stack</h2>
       </div>
       <br></br>
-      <div className="stack-wrapper">
+  
         <Row className="justify-content-center">
           {stackElements.map(e => (
             <Col
@@ -153,7 +153,7 @@ const Stack = () => {
             </Col>
           ))}
         </Row>
-      </div>
+    
     </Container>
   );
 };

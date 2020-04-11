@@ -14,7 +14,7 @@ const Formation = () => {
         <h2 className="section-titles">Formation</h2>
         </div>
         <br></br>
-      <div className="formation-wrapper">
+
         <Row className="justify-content-between">
           <Col
             sm="12"
@@ -135,7 +135,6 @@ const Formation = () => {
             </div>
           </Col>
         </Row>
-      </div>
     </Container>
   );
 };

@@ -2,11 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
-.formation-wrapper,
-.stack-wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
+.isCurrent{
+  font-weight: bold;
 }
+
+
 
 .App {
   background: linear-gradient(
@@ -221,10 +221,11 @@ h6 {
   justify-content: center;
   color: #666666;
   text-align: left;
+
 }
 
 .header-text {
-  max-width: 250px;
+  max-width: 350px;
 }
 
 .header-title {
@@ -278,6 +279,13 @@ h6 {
 }
 
 /* EXPERIENCE SECTION */
+
+
+
+.vertical-timeline {
+  width: 100% !important;
+}
+
 
 .vertical-timeline-element-content {
   background-color: #ffffff1d !important;

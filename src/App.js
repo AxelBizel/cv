@@ -7,7 +7,7 @@ import Header from "./Components/Header";
 import Contact from "./Components/Contact";
 import Stack from "./Components/Stack";
 import Footer from "./Components/Footer";
-import AOS from "aos"
+import AOS from "aos";
 import ExperienceTimeline from "./Components/ExperienceTimeline";
 import Projets from "./Components/Projets";
 
@@ -15,29 +15,30 @@ function App() {
   AOS.init();
   return (
     <div className="App">
-      <div id="header">
+      <section id="header">
         <Header />
-      </div>
+      </section>
+
       <NavbarComponent />
-      {/* <div id="experience" className="section">
-        <Experience />
-      </div> */}
-      <div id="experience" className="section">
+
+      <section id="experience" className="section">
         <ExperienceTimeline />
-      </div>
-      <div id="projets" className="section">
+      </section>
+      <section id="projets" className="section">
         <Projets />
-      </div>
-      <div id="formation" className="section">
+      </section>
+      <section id="formation" className="section">
         <Formation />
-      </div>
-      <div id="stack" className="section">
+      </section>
+      <section id="stack" className="section">
         <Stack />
-      </div>
-      <div id="contact" className="section">
+      </section>
+      <section id="contact" className="section">
         <Contact />
-      </div>
-      <Footer />
+      </section>
+      <section id="footer">
+        <Footer />
+      </section>
     </div>
   );
 }
