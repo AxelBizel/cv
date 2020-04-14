@@ -1,12 +1,10 @@
 import React from "react";
-import "../App.css";
 import { Row, Col, Container } from "reactstrap";
-import MAANS from "../Images/MAANS-Picto.png";
-import IDIX from "../Images/idix.png";
-import LaCroix from "../Images/lacroix.png";
-import Mind from "../Images/mind-logo.jpg";
-import CarouselIDIX from "./CarouselIDIX";
-import CarouselWCS from "./CarouselWCS";
+import MAANS from "../../Images/MAANS-Picto.png";
+import IDIX from "../../Images/idix.png";
+import LaCroix from "../../Images/lacroix.png";
+import Mind from "../../Images/mind-logo.jpg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 

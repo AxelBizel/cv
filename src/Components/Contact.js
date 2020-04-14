@@ -8,14 +8,14 @@ import {
   Label,
   Input
 } from "reactstrap";
-import "../App.css";
+
 
 const Contact = props => {
   return (
     <Container>
-      <br></br>
+     
       <h2 className="section-titles">Contact</h2>
-      <br></br>
+ 
       <Form className="form-container" action="mailto:axel.bizel@gmail.com" method="post" name="contact" enctype="text/plain">
         <Row form>
           <Col>

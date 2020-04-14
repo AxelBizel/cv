@@ -12,7 +12,42 @@ const Footer = () => {
   return (
     <div className="footer">
       <Container>
-        <Row>
+        <h2 className="section-titles">Contact</h2>
+
+        <Form
+          className="form-container"
+          action="mailto:axel.bizel@gmail.com"
+          method="post"
+          name="contact"
+          enctype="text/plain"
+        >
+          <Row form>
+            <Col>
+              <FormGroup>
+                <Label for="email">Email</Label>
+                <Input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="vous@example.com"
+                />
+              </FormGroup>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <FormGroup>
+                <Label for="message">Message</Label>
+                <Input type="textarea" name="message" id="message" />
+              </FormGroup>
+            </Col>
+          </Row>
+          <button className="form-button" type="submit">
+            Envoyer !
+          </button>
+        </Form>
+
+        <Row className="justify-content-center">
           <Col xs="6" lg="3" className="footer-logo-container">
             <a
               href="https://github.com/AxelBizel"
@@ -37,7 +72,7 @@ const Footer = () => {
           </Col>
           <Col xs="6" lg="3" className="footer-logo-container">
             <a
-              href="https://drive.google.com/file/d/1qo7TH3mUaVd1uBXjmOlShAdf9eQLBQZJ/view?usp=sharing"
+              href="https://twitter.com/AxelBizel"
               target="_blank"
               rel="noopener noreferrer"
               alt="Mon profil Twitter"

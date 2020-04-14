@@ -183,12 +183,11 @@ const Projets = () => {
 
   return (
     <Container>
-      <br></br>
+     
       <div data-aos="zoom-in">
         <h2 className="section-titles">Projets</h2>
       </div>
-      <br></br>
-
+     
       <Row className="justify-content-center">
         {projectsElements.map((e, i) => (
           <Col

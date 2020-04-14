@@ -95,7 +95,7 @@ const Stack = () => {
       id: 13
     },
     {
-      name: "Scrum / Agile",
+      name: "Scrum/Agile",
       img: `${ScrumLogo}`,
       id: 14
     },
@@ -113,11 +113,11 @@ const Stack = () => {
 
   return (
     <Container>
-      <br></br>
+     
       <div data-aos="zoom-in">
         <h2 className="section-titles">Stack</h2>
       </div>
-      <br></br>
+      
   
         <Row className="justify-content-center">
           {stackElements.map(e => (

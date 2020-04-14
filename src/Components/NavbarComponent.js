@@ -47,7 +47,7 @@ const NavbarComponent = () => {
               </NavItem>
 
               <NavItem>
-                <NavLink href="#contact">Contact</NavLink>
+                <NavLink href="#footer">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
