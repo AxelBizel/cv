@@ -1,9 +1,9 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
-import LaReligieuse from '../Images/lareligieuse.png'
-import MemorySP from '../Images/southparkmemory.png'
-import StranglerThings from '../Images/stranglerthings.png'
-import JsonsQuizz from '../Images/jsonsquizz.png'
+import LaReligieuse from '../../Images/lareligieuse.png'
+import MemorySP from '../../Images/southparkmemory.png'
+import StranglerThings from '../../Images/stranglerthings.png'
+import JsonsQuizz from '../../Images/jsonsquizz.png'
 
 const itemsWCS = [
   {

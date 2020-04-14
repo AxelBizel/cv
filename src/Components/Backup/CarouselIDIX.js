@@ -1,9 +1,9 @@
-import React from "react";
-import { UncontrolledCarousel } from "reactstrap";
-import Nobel from '../Images/nobel.png';
-import ElectionsUs from '../Images/electionsus.png';
-import Galaxie from '../Images/galaxie.png';
-import DemandeursAsile from '../Images/idix-ex1.jpeg';
+import React from "./node_modules/react";
+import { UncontrolledCarousel } from "./node_modules/reactstrap";
+import Nobel from '../../Images/nobel.png';
+import ElectionsUs from '../../Images/electionsus.png';
+import Galaxie from '../../Images/galaxie.png';
+import DemandeursAsile from '../../Images/idix-ex1.jpeg';
 
 const itemsIdix = [
   {

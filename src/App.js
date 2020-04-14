@@ -1,33 +1,45 @@
 import React from "react";
 import "./App.css";
 import NavbarComponent from "./Components/NavbarComponent";
-import Experience from "./Components/Experience";
-import Formation from "./Components/Formation";
+
 import Header from "./Components/Header";
 import Contact from "./Components/Contact";
 import Stack from "./Components/Stack";
 import Footer from "./Components/Footer";
+import AOS from "aos";
+import ExperienceTimeline from "./Components/ExperienceTimeline";
+import Projets from "./Components/Projets";
+import FormationTimeline from "./Components/FormationTimeline";
 
 function App() {
+  AOS.init();
   return (
     <div className="App">
-      <div id="header">
+      <section id="header">
         <Header />
-      </div>
+      </section>
+
       <NavbarComponent />
-      <div id="experience" className="section">
-        <Experience />
-      </div>
-      <div id="formation" className="section">
-        <Formation />
-      </div>
-      <div id="stack" className="section">
+
+      <section id="experience" className="section">
+        <ExperienceTimeline />
+      </section>
+      <hr />
+      <section id="projets" className="section">
+        <Projets />
+      </section>
+      <hr />
+      <section id="formation" className="section">
+        <FormationTimeline />
+      </section>
+      <hr />
+      <section id="stack" className="section">
         <Stack />
-      </div>
-      <div id="contact" className="section">
-        <Contact />
-      </div>
-      <Footer />
+      </section>
+      <hr />
+      <section id="footer">
+        <Footer />
+      </section>
     </div>
   );
 }
