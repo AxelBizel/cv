@@ -6,7 +6,6 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faFileDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-import "../App.css";
 
 const Footer = () => {
   return (

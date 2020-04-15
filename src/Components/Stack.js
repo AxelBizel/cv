@@ -24,7 +24,6 @@ import ChartJSLogo from "../Images/Stack/chartjsLogo.svg";
 import SassLogo from "../Images/Stack/SassLogo.svg";
 import SequelizeLogo from "../Images/Stack/SequelizeLogo.svg";
 import SvelteLogo from "../Images/Stack/SvelteLogo.svg";
-import "../App.css";
 
 const Stack = () => {
   const stackElements = [
