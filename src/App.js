@@ -1,14 +1,13 @@
 import React from "react";
-import "./Stylesheets/main.scss";
 import NavbarComponent from "./Components/NavbarComponent";
 import Header from "./Components/Header";
-import Contact from "./Components/Contact";
 import Stack from "./Components/Stack";
 import Footer from "./Components/Footer";
-import AOS from "aos";
 import ExperienceTimeline from "./Components/ExperienceTimeline";
 import Projets from "./Components/Projets";
 import FormationTimeline from "./Components/FormationTimeline";
+import AOS from "aos";
+import "./Stylesheets/main.scss";
 
 function App() {
   AOS.init();

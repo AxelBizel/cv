@@ -88,7 +88,7 @@ const Footer = () => {
           </Col>
           <Col xs="4" lg="2" className="footer-logo-container">
             <a
-              href="https://drive.google.com/file/d/1qo7TH3mUaVd1uBXjmOlShAdf9eQLBQZJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1OuOgL5KrWRYz6cnjxi-4mJ33jrf9BYZ4/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               alt="Mon CV au format PDF"

@@ -10,6 +10,7 @@ import {
   CardBody,
 } from "reactstrap";
 import MaansSite from "../Images/MaansSite.jpg";
+import Discogs from "../Images/Discogs.jpg";
 import SouthParkMemory from "../Images/SouthParkMemory.jpg";
 import StranglerThings from "../Images/stranglerthings.jpg";
 import Kiddo from "../Images/Kiddo.jpg";
@@ -19,6 +20,7 @@ import IDIX_Nobel from "../Images/IDIX_Nobel.jpg";
 import AmeriqueRing from "../Images/AmeriqueRing.jpg";
 import Cerebrolese from "../Images/Cerebrolese.jpg";
 import PiqueurDeRue from "../Images/PiqueurDeRue.jpg";
+import OpenData from "../Images/OpenData.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
@@ -31,13 +33,29 @@ const Projets = () => {
       links: ["https://maans.eu/", "https://app.maans.eu/"],
       linksDescriptions: ["Voir le site", "Voir l'application"],
       description:
-        "Refonte du site et de l'application de MAANS, start-up développant un fauteuil d'immersion acoustique.",
+        "Refonte du site et de l'application de MAANS, start-up développant un fauteuil d'immersion acoustique",
       details: [
         "Développement front-end et intégration",
         "Mise en place d'une base de données",
         "Refonte de l'application embarquée du fauteuil",
         "Création d'une interface admin avec authentification JWT",
-        "Stack : React / Node.js / Svelte / Sequelize / Chart.js / SASS",
+        "Stack : React - Node.js - Svelte - Sequelize - Chart.js - SASS",
+      ],
+    },
+    {
+      name: "Discogs App",
+      date: "Janvier - Février 2020",
+      img: `${Discogs}`,
+      links: ["https://github.com/AxelBizel/discogs-app"],
+      linksDescriptions: ["Voir sur Github"],
+      description:
+        "Application web permettant aux utilisateurs de Discogs d'explorer leur collection via un dashboard personnalisé",
+      details: [
+        "Conception, scénarisation, réalisation wireframes",
+        "Récupération des données via l'API de Discogs et le client Node.js disconnect",
+        "Développement front-end et intégration",
+        "Création de dataviz à partir des données (genre, styles, date de sortie, etc.)",
+        "Stack : React - Node.js - Chart.js - OAuth API - Bootstrap ",
       ],
     },
     {
@@ -195,8 +213,27 @@ const Projets = () => {
         "Intégration avec la plateforme web Djehouti",
       ],
     },
+    {
+      name: "Open data et datajournalisme",
+      date: "Octobre 2011 - Avril 2013",
+      img: `${OpenData}`,
+      links: [
+        " http://owni.fr/2011/12/14/donnees-liberation-opendata-etalab/index.html",
+        " https://drive.google.com/file/d/1pEW1Kqdz7SUPJJM7EgnDuyuoHcdzR8J2/view?usp=sharing",
+      ],
+      linksDescriptions: ["Voir sur Owni.fr", "Consulter le mémoire"],
+      description:
+        "Travaux de recherche sur le mouvement open data en France et ses enjeux pour le journalisme",
+      details: [
+        "Recherche documentaire et bibliographique",
+        "Entretien avec des développeurs, sociologues, journalistes et militants",
+        "Rédaction d'un mémoire universitaire et de plusieurs articles de presse",
+      ],
+    },
   ];
 
+
+ 
   return (
     <Container>
       <div data-aos="zoom-in">

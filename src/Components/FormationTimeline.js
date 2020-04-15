@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container } from "reactstrap";
+import { Container } from "reactstrap";
 import WCSlogo from "../Images/WCS.jpg";
 import EJDG from "../Images/ejdg-logo.jpg";
 import UGA from "../Images/UGA.jpg";
@@ -35,7 +35,8 @@ const FormationTimeline = () => {
     {
       title: "MASS",
       date: "2005",
-      description: "L1 Mathématiques et informatique appliquées aux sciences sociales, mention B.",
+      description:
+        "L1 Mathématiques et informatique appliquées aux sciences sociales, mention B.",
       img: `${MASS}`,
     },
     {
@@ -48,11 +49,9 @@ const FormationTimeline = () => {
 
   return (
     <Container>
-      <br></br>
       <div data-aos="zoom-in">
         <h2 className="section-titles">Formation</h2>
       </div>
-      <br></br>
 
       <VerticalTimeline>
         {formationItems.map((e) => (
