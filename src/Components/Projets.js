@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import {
   Container,
   Row,
@@ -25,6 +25,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const Projets = () => {
+  const [isMobile, setIsMobile] = useState(null)
+  useEffect(() => {
+    document.title = `MAANS | Blog`;
+    if (window.matchMedia("(max-width: 600px)").matches) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+  }, [isMobile]);
+
+
+
+
   const projectsElements = [
     {
       name: "Maans",
@@ -249,7 +262,7 @@ const Projets = () => {
             className="my-2"
             data-aos="flip-left"
             data-aos-duration="500"
-            data-aos-delay={(i % 3) * 100}
+            data-aos-delay={(isMobile ? 0 : i % 3) * 100}
           >
             <Card body inverse className="projectCard">
               <a href={e.links[0]} target="_blank" rel="noopener noreferrer">
