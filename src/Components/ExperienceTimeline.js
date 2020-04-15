@@ -4,6 +4,7 @@ import MAANS from "../Images/MAANS-Picto.png";
 import IDIX from "../Images/idix.png";
 import LaCroix from "../Images/lacroix.png";
 import Mind from "../Images/mind-logo.jpg";
+import News from "../Images/NewsPicto.svg";
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -139,6 +140,31 @@ const Experience = () => {
             </li>
             <li>
               Frontpage editing, gestion du site en CMS, community management
+            </li>
+          </ul>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          date="2009-2013"
+          iconStyle={{
+            backgroundImage: `url(${News})`,
+            backgroundColor: "#fff",
+            color: "#666666",
+            backgroundSize: "cover"
+          }}
+        >
+          <h3>Journaliste presse écrite et web</h3>
+
+          <p>
+            <em>
+              Nombreux stages, CDD en rédaction ou travaux en freelance pour le compte de différents médias.
+            </em>
+          </p>
+          <br />
+          <ul>
+            <li>Formation aux différents métiers de la presse écrite et web : rédaction, secrétariat de rédaction, PAO, reportage vidéo, etc.</li>
+           
+            <li>
+              Références : L'Humanité, Les Inrocks, OWNI, Lyon Capitale, LibéLyon, Le Progrès, Le Dauphiné Libéré, Grenews, etc.
             </li>
           </ul>
         </VerticalTimelineElement>

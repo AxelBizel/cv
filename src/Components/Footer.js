@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
+import { faFileDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import "../App.css";
 
@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <Container>
-        <h2 className="section-titles">Contact</h2>
+        {/* <h2 className="section-titles">Contact</h2>
 
         <Form
           className="form-container"
@@ -45,10 +45,16 @@ const Footer = () => {
           <button className="form-button" type="submit">
             Envoyer !
           </button>
-        </Form>
+        </Form> */}
 
         <Row className="justify-content-center">
-          <Col xs="6" lg="3" className="footer-logo-container">
+          <Col xs="4" lg="2" className="footer-logo-container">
+            <a href="mailto:axel.bizel@gmail.com" alt="Envoyez un e-mail">
+              <FontAwesomeIcon className="footer-logo" icon={faEnvelope} />
+              <p>E-mail</p>
+            </a>
+          </Col>
+          <Col xs="4" lg="2" className="footer-logo-container">
             <a
               href="https://github.com/AxelBizel"
               target="_blank"
@@ -59,7 +65,7 @@ const Footer = () => {
               <p>Github</p>
             </a>
           </Col>
-          <Col xs="6" lg="3" className="footer-logo-container">
+          <Col xs="4" lg="2" className="footer-logo-container">
             <a
               href="https://www.linkedin.com/in/axel-bizel/"
               target="_blank"
@@ -70,7 +76,7 @@ const Footer = () => {
               <p>LinkedIn</p>
             </a>
           </Col>
-          <Col xs="6" lg="3" className="footer-logo-container">
+          <Col xs="4" lg="2" className="footer-logo-container">
             <a
               href="https://twitter.com/AxelBizel"
               target="_blank"
@@ -81,7 +87,7 @@ const Footer = () => {
               <p>Twitter</p>
             </a>
           </Col>
-          <Col xs="6" lg="3" className="footer-logo-container">
+          <Col xs="4" lg="2" className="footer-logo-container">
             <a
               href="https://drive.google.com/file/d/1qo7TH3mUaVd1uBXjmOlShAdf9eQLBQZJ/view?usp=sharing"
               target="_blank"
@@ -94,10 +100,7 @@ const Footer = () => {
           </Col>
         </Row>
         <Row>
-          <p className="copyright-mention">
-            &#9400; Axel Bizel - novembre 2019 - Ce site a été entièrement
-            réalisé à l'aide de React.js et Bootstrap.
-          </p>
+          <p className="copyright-mention">&#9400; Axel Bizel - avril 2020</p>
         </Row>
       </Container>
     </div>

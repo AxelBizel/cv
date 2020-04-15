@@ -3,6 +3,7 @@ import { Row, Col, Container } from "reactstrap";
 import WCSlogo from "../Images/WCS.jpg";
 import EJDG from "../Images/ejdg-logo.jpg";
 import UGA from "../Images/UGA.jpg";
+import MASS from "../Images/UnivSavoie.jpg";
 import Bac from "../Images/bac-es.png";
 import {
   VerticalTimeline,
@@ -30,6 +31,12 @@ const FormationTimeline = () => {
       date: "2005-2010",
       description: "Master de recherche en histoire contemporaine, mention TB",
       img: `${UGA}`,
+    },
+    {
+      title: "MASS",
+      date: "2005",
+      description: "L1 Mathématiques et informatique appliquées aux sciences sociales, mention B.",
+      img: `${MASS}`,
     },
     {
       title: "Bac ES spécialité Maths",
