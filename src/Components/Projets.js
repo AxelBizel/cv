@@ -27,7 +27,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 const Projets = () => {
   const [isMobile, setIsMobile] = useState(null)
   useEffect(() => {
-    document.title = `MAANS | Blog`;
+
     if (window.matchMedia("(max-width: 600px)").matches) {
       setIsMobile(true);
     } else {

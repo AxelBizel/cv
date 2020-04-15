@@ -28,7 +28,7 @@ import SvelteLogo from "../Images/Stack/SvelteLogo.svg";
 const Stack = () => {
 const [isMobile, setIsMobile] = useState(null)
   useEffect(() => {
-    document.title = `MAANS | Blog`;
+  
     if (window.matchMedia("(max-width: 600px)").matches) {
       setIsMobile(true);
     } else {
