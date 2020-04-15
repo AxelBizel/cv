@@ -7,18 +7,16 @@ import Mind from "../Images/mind-logo.jpg";
 import News from "../Images/NewsPicto.svg";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
 const Experience = () => {
   return (
     <Container>
-      <br></br>
       <div data-aos="zoom-in">
         <h2 className="section-titles"> Expérience</h2>
       </div>
-      <br></br>
 
       <VerticalTimeline>
         <VerticalTimelineElement
@@ -27,7 +25,7 @@ const Experience = () => {
             backgroundImage: `url(${MAANS})`,
             backgroundColor: "#fff",
             color: "#666666",
-            backgroundSize: "cover"
+            backgroundSize: "cover",
           }}
         >
           <h3>Développeur full-stack Javascript</h3>
@@ -60,7 +58,7 @@ const Experience = () => {
             backgroundImage: `url(${IDIX})`,
             backgroundColor: "#fff",
             color: "#666666",
-            backgroundSize: "cover"
+            backgroundSize: "cover",
           }}
         >
           <h3>Datajournaliste / Infographiste</h3>
@@ -92,7 +90,7 @@ const Experience = () => {
             backgroundImage: `url(${Mind})`,
             backgroundColor: "#fff",
             color: "#666666",
-            backgroundSize: "cover"
+            backgroundSize: "cover",
           }}
         >
           <h3>Journaliste spécialisé</h3>
@@ -120,7 +118,7 @@ const Experience = () => {
             backgroundImage: `url(${LaCroix})`,
             backgroundColor: "#fff",
             color: "#666666",
-            backgroundSize: "cover"
+            backgroundSize: "cover",
           }}
         >
           <h3>Journaliste Web</h3>
@@ -149,22 +147,27 @@ const Experience = () => {
             backgroundImage: `url(${News})`,
             backgroundColor: "#fff",
             color: "#666666",
-            backgroundSize: "cover"
+            backgroundSize: "cover",
           }}
         >
           <h3>Journaliste presse écrite et web</h3>
 
           <p>
             <em>
-              Nombreux stages, CDD en rédaction ou travaux en freelance pour le compte de différents médias.
+              Nombreux stages, CDD en rédaction ou travaux en freelance pour le
+              compte de différents médias.
             </em>
           </p>
           <br />
           <ul>
-            <li>Formation aux différents métiers de la presse écrite et web : rédaction, secrétariat de rédaction, PAO, reportage vidéo, etc.</li>
-           
             <li>
-              Références : L'Humanité, Les Inrocks, OWNI, Lyon Capitale, LibéLyon, Le Progrès, Le Dauphiné Libéré, Grenews, etc.
+              Formation aux différents métiers de la presse écrite et web :
+              rédaction, secrétariat de rédaction, PAO, reportage vidéo, etc.
+            </li>
+
+            <li>
+              Références : L'Humanité, Les Inrocks, OWNI, Lyon Capitale,
+              LibéLyon, Le Progrès, Le Dauphiné Libéré, Grenews, etc.
             </li>
           </ul>
         </VerticalTimelineElement>

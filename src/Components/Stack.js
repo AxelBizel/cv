@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import {
   Container,
   Row,
@@ -24,9 +24,19 @@ import ChartJSLogo from "../Images/Stack/chartjsLogo.svg";
 import SassLogo from "../Images/Stack/SassLogo.svg";
 import SequelizeLogo from "../Images/Stack/SequelizeLogo.svg";
 import SvelteLogo from "../Images/Stack/SvelteLogo.svg";
-import "../App.css";
 
 const Stack = () => {
+const [isMobile, setIsMobile] = useState(null)
+  useEffect(() => {
+    document.title = `MAANS | Blog`;
+    if (window.matchMedia("(max-width: 600px)").matches) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+  }, [isMobile]);
+
+
   const stackElements = [
     {
       name: "HTML5",
@@ -120,7 +130,7 @@ const Stack = () => {
       
   
         <Row className="justify-content-center">
-          {stackElements.map(e => (
+          {stackElements.map((e,i) => (
             <Col
               xs="6"
               sm="4"
@@ -129,7 +139,7 @@ const Stack = () => {
               className="my-2"
               data-aos="flip-left"
               data-aos-duration="500"
-              data-aos-delay={(e.id % 6) * 100}
+              data-aos-delay={isMobile ? (200*(i % 2)): ((i % 6) * 100)}
             >
               <Card
                 body
