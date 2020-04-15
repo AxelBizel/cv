@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ddf763298c2740f8ae8be7f8c171c333",
+    "revision": "6c6cad8b347aae3ee4c1e9d1dca83211",
     "url": "/cv/index.html"
   },
   {
-    "revision": "c9a0098ffae62c63a70d",
+    "revision": "fb7ef1d5718d5be014a5",
     "url": "/cv/static/css/2.5bb527d1.chunk.css"
   },
   {
-    "revision": "2a1682a52333fe65a01d",
-    "url": "/cv/static/css/main.ab4e71f3.chunk.css"
+    "revision": "41c265a95ede8f1216a1",
+    "url": "/cv/static/css/main.7238e20d.chunk.css"
   },
   {
-    "revision": "c9a0098ffae62c63a70d",
-    "url": "/cv/static/js/2.2bb2f029.chunk.js"
+    "revision": "fb7ef1d5718d5be014a5",
+    "url": "/cv/static/js/2.a93f37a3.chunk.js"
   },
   {
-    "revision": "2a1682a52333fe65a01d",
-    "url": "/cv/static/js/main.c3b41e4d.chunk.js"
+    "revision": "41c265a95ede8f1216a1",
+    "url": "/cv/static/js/main.160644eb.chunk.js"
   },
   {
     "revision": "9f43c13a762fdb8ffb3a",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6516c9c4f7e4d15c08c91b08ed2208c2",
     "url": "/cv/static/media/Cerebrolese.6516c9c4.jpg"
+  },
+  {
+    "revision": "424c4f35cf863954fd6dd7eb610cc3a6",
+    "url": "/cv/static/media/Discogs.424c4f35.jpg"
   },
   {
     "revision": "174d96b2f6cd93cb7a38e1dc703fd876",
@@ -84,6 +88,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv/static/media/MAANS-Picto.313fa2a8.png"
   },
   {
+    "revision": "250f02b0f6c5a03d2c5fc4759471d3f7",
+    "url": "/cv/static/media/MaansSite.250f02b0.jpg"
+  },
+  {
     "revision": "f79f40aa3bd987d11c541fc5958da176",
     "url": "/cv/static/media/MysqlLogo.f79f40aa.svg"
   },
@@ -94,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b8bb7941ab3aca7f5cd93cc2fdd6340e",
     "url": "/cv/static/media/NodeLogo.b8bb7941.svg"
+  },
+  {
+    "revision": "6e553f3579114634b17be6e95a8baa6a",
+    "url": "/cv/static/media/OpenData.6e553f35.jpg"
   },
   {
     "revision": "e2847da24ae476f336537b84af0a4e60",
